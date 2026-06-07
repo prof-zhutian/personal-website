@@ -28,7 +28,14 @@ export default function Hero() {
       </p>
 
       {/* 导航链接 */}
-      <nav className="flex items-center gap-6 text-sm">
+      <nav className="flex items-center gap-6 text-sm flex-wrap justify-center">
+        <a
+          href="#about"
+          className="hover:text-primary transition-colors border-b border-transparent hover:border-primary pb-0.5"
+        >
+          {t("hero.nav.about")}
+        </a>
+        <span className="text-border">·</span>
         <a
           href="#books"
           className="hover:text-primary transition-colors border-b border-transparent hover:border-primary pb-0.5"

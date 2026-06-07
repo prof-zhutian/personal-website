@@ -8,6 +8,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "hero.nav.books": "作品",
     "hero.nav.articles": "文章",
     "hero.nav.interviews": "采访",
+    "hero.nav.about": "关于",
     "hero.nav.contact": "联系",
 
     // Books section
@@ -28,6 +29,13 @@ export const translations: Record<Lang, Record<string, string>> = {
     "interviews.subtitle": "媒体采访与报道",
     "interviews.view": "查看",
 
+    // About section
+    "about.title": "About",
+    "about.subtitle": "教育背景 · 工作经历",
+    "about.current_title": "现任职务",
+    "about.education_title": "教育背景",
+    "about.experience_title": "工作经历",
+
     // Footer
     "footer.title": "联系",
     "footer.email_text": "如需联系，请发邮件至：",
@@ -44,6 +52,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "hero.nav.books": "Books",
     "hero.nav.articles": "Articles",
     "hero.nav.interviews": "Interviews",
+    "hero.nav.about": "About",
     "hero.nav.contact": "Contact",
 
     // Books section
@@ -63,6 +72,13 @@ export const translations: Record<Lang, Record<string, string>> = {
     "interviews.title": "Interviews",
     "interviews.subtitle": "Media Interviews & Coverage",
     "interviews.view": "View",
+
+    // About section
+    "about.title": "About",
+    "about.subtitle": "Education · Work Experience",
+    "about.current_title": "Current Positions",
+    "about.education_title": "Education",
+    "about.experience_title": "Work Experience",
 
     // Footer
     "footer.title": "Contact",
