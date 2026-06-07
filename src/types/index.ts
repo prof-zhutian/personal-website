@@ -31,5 +31,18 @@ export interface Article {
   language: "zh" | "en"; // 文章主要语言
 }
 
+export interface MediaInterview {
+  id: number;
+  titleZh: string;
+  titleEn: string;
+  date: string;
+  sourceZh: string;
+  sourceEn: string;
+  descriptionZh: string;
+  descriptionEn: string;
+  url?: string;
+  language: "zh" | "en";
+}
+
 // 确保 esbuild 不会把这个模块当作空模块
 export default {};

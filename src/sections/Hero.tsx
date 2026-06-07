@@ -44,6 +44,13 @@ export default function Hero() {
         </a>
         <span className="text-border">·</span>
         <a
+          href="#interviews"
+          className="hover:text-primary transition-colors border-b border-transparent hover:border-primary pb-0.5"
+        >
+          {t("hero.nav.interviews")}
+        </a>
+        <span className="text-border">·</span>
+        <a
           href="#contact"
           className="hover:text-primary transition-colors border-b border-transparent hover:border-primary pb-0.5"
         >

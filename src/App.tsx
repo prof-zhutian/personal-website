@@ -1,6 +1,7 @@
 import Hero from "@/sections/Hero";
 import Books from "@/sections/Books";
 import Articles from "@/sections/Articles";
+import Interviews from "@/sections/Interviews";
 import Footer from "@/sections/Footer";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Books />
       <Articles />
+      <Interviews />
       <Footer />
     </div>
   );

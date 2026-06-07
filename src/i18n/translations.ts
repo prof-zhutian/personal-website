@@ -7,6 +7,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "hero.subtitle": "中欧国际工商学院经济学教授 · 作者",
     "hero.nav.books": "作品",
     "hero.nav.articles": "文章",
+    "hero.nav.interviews": "采访",
     "hero.nav.contact": "联系",
 
     // Books section
@@ -21,6 +22,11 @@ export const translations: Record<Lang, Record<string, string>> = {
     "articles.subtitle": "媒体发表文章",
     "articles.read_original": "阅读原文",
     "articles.no_articles": "暂无文章",
+
+    // Interviews section
+    "interviews.title": "Interviews",
+    "interviews.subtitle": "媒体采访与报道",
+    "interviews.view": "查看",
 
     // Footer
     "footer.title": "联系",
@@ -37,6 +43,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "hero.subtitle": "Professor of Economics, CEIBS · Author",
     "hero.nav.books": "Books",
     "hero.nav.articles": "Articles",
+    "hero.nav.interviews": "Interviews",
     "hero.nav.contact": "Contact",
 
     // Books section
@@ -51,6 +58,11 @@ export const translations: Record<Lang, Record<string, string>> = {
     "articles.subtitle": "Published Articles",
     "articles.read_original": "Read Original",
     "articles.no_articles": "No articles yet",
+
+    // Interviews section
+    "interviews.title": "Interviews",
+    "interviews.subtitle": "Media Interviews & Coverage",
+    "interviews.view": "View",
 
     // Footer
     "footer.title": "Contact",
