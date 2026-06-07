@@ -16,7 +16,19 @@ export const articles: Article[] = [
     language: "zh",
   },
   {
-    id: 1,
+    id: 2,
+    titleZh: "AI与你的未来：平权、繁荣还是分化？",
+    titleEn: "AI and Your Future: Equality, Prosperity, or Polarization?",
+    excerptZh: "AI与以往技术革命不同，它是一种通用认知技术，不是替代特定岗位，而是先替代任务，短期内可能先带来收入和就业的分化而非普遍繁荣。AI有平权效应的一面——它降低了获取信息和工具的门槛；但在中长期，它将拉大能力和收入差距。长期繁荣取决于教育体系、社会保障和组织制度的调整能否跟上AI发展的步伐。",
+    excerptEn: "Unlike previous technological revolutions, AI is a universal cognitive technology that impacts the core cognitive activities underlying most work. It will first replace tasks rather than entire occupations, leading to short-term income and employment polarization rather than universal prosperity. While AI has a democratizing effect on access to information and tools, long-term prosperity depends on timely adjustments to education, social security, and organizational systems.",
+    date: "2026-04-01",
+    sourceZh: "中欧国际工商学院",
+    sourceEn: "CEIBS",
+    sourceUrl: "https://cn.ceibs.edu.cn/new-papers-columns/28749",
+    language: "zh",
+  },
+  {
+    id: 3,
     titleZh: "当前宏观经济的症结与破局——提振总需求与财政刺激的逻辑",
     titleEn: "The Root Cause of China's Macroeconomic Woes — The Logic of Boosting Aggregate Demand and Fiscal Stimulus",
     excerptZh: "当前宏观经济的症结在于总需求不足，导致资源闲置、产能过剩、投资回报下降和通缩压力。本文提出两条关键财政刺激措施：一是发行约4万亿消费券直接刺激消费；二是政府收购未完工房地产项目，转为保障性住房和廉租房，以稳定房地产市场、避免资源浪费。",
@@ -28,7 +40,7 @@ export const articles: Article[] = [
     language: "zh",
   },
   {
-    id: 2,
+    id: 4,
     titleZh: "通缩三年后的中国经济——一半海水，一半火焰",
     titleEn: "China's Economy After Three Years of Deflation — Half Seawater, Half Flame",
     excerptZh: "中国经济呈现出明显的分化：一方面，人工智能、新能源、高端制造等领域频频突破；另一方面，宏观经济面临下行压力，消费与投资增长持续低迷，整体物价水平已连续三年下滑。本文指出，当前经济的核心问题在于总需求不足，房地产业大幅下滑是过去三年内需收缩的主因。",
@@ -40,7 +52,7 @@ export const articles: Article[] = [
     language: "zh",
   },
   {
-    id: 3,
+    id: 5,
     titleZh: "中国经济的病根是房地产下滑，每人发3000元消费券",
     titleEn: "The Root of China's Economic Ills Is the Real Estate Downturn — Give Everyone 3,000 RMB in Consumption Vouchers",
     excerptZh: "朱天教授对如何有效扩大内需、提振消费和投资进行了深度分析，提出宏观经济政策需要在短期内迅速发力，全民发放消费券是当下最可行、见效最快的办法。同时呼吁建立国家级房地产支持平台，从根源上解决房地产市场下行的问题。",
@@ -52,7 +64,7 @@ export const articles: Article[] = [
     language: "zh",
   },
   {
-    id: 4,
+    id: 6,
     titleZh: "企业家们既要忙着赶路，也需抬头看路",
     titleEn: "Entrepreneurs Must Look Up While Racing Ahead",
     excerptZh: "中欧国际工商学院副院长兼中方教务长朱天教授接受《经济观察报》专访，指出在AI等技术变革冲击企业结构和商业模式的背景下，商学院教育如何与时俱进。他观察到课堂中80%的学员来自中国民营企业，并对中国经济的韧性与潜力表达了乐观态度。",
@@ -64,7 +76,7 @@ export const articles: Article[] = [
     language: "zh",
   },
   {
-    id: 5,
+    id: 7,
     titleZh: "中国经济不惧贸易战，但仍要破除几个流行认识误区",
     titleEn: "China's Economy Does Not Fear a Trade War, But Still Needs to Dispel Several Popular Misconceptions",
     excerptZh: "朱天教授在这篇万字长文中指出：中国的出口依存度已从2006年的36%降至2024年的约20%，与日本、印度相当；中国长期重视消费；高投资率是中国过去40年高速增长的关键驱动力。当前真正的问题是消费和投资需求均不足以消化国内供给能力。",
@@ -76,7 +88,7 @@ export const articles: Article[] = [
     language: "zh",
   },
   {
-    id: 6,
+    id: 8,
     titleZh: "2025年中国经济，期待超常规政策",
     titleEn: "China's Economy in 2025: Expecting Unconventional Policies",
     excerptZh: "本文分析2025年中国经济面临的下行压力。2024年出现自1998年亚洲金融危机以来首次连续两年通缩。文章认为当前问题是总需求不足，主张中央政府发行大规模全民消费券，大幅扩张积极财政政策和货币政策，将年度新增政府债务提升至15万亿元以上以扭转经济下行。",
@@ -88,7 +100,7 @@ export const articles: Article[] = [
     language: "zh",
   },
   {
-    id: 7,
+    id: 9,
     titleZh: "专访：建议全民发放消费券，每人三千元",
     titleEn: "Interview: Recommend Universal Consumption Vouchers of 3,000 RMB Per Person",
     excerptZh: "朱天教授接受南都·湾财社专访，就2025年中国经济前景提出建议。他认为在消费刺激上应向全民发放现金消费券；在投资方面要稳定房地产投资，重点确保在建项目顺利完工。2024年中国出口成为最大亮点，但投资和消费均显疲弱。",
@@ -100,7 +112,7 @@ export const articles: Article[] = [
     language: "zh",
   },
   {
-    id: 8,
+    id: 10,
     titleZh: "\"高杠杆\"的中国经济，还能再加杠杆吗？",
     titleEn: "Can China's \"Highly Leveraged\" Economy Still Add More Leverage?",
     excerptZh: "中国面临1998年以来首次连续两年通缩，主要由房地产去杠杆拖累。文章指出：中国政府债务率在全球并不高，中央财政有巨大加杠杆空间；中国企业的高负债率是高储蓄率下的自然结果；金融风险本质源于资产贬值和收入下降，而非高负债本身。建议2025年中央财政大幅加杠杆，年度新增政府债务超15万亿元。",
@@ -112,7 +124,7 @@ export const articles: Article[] = [
     language: "zh",
   },
   {
-    id: 9,
+    id: 11,
     titleZh: "纠正流行认知，重启经济升势",
     titleEn: "Correcting Popular Misconceptions to Restart Economic Growth",
     excerptZh: "疫情三年中国经济自身需求受抑制，叠加西方财政刺激导致出口率短暂上升。过去两年工业企业营收增长几乎停滞，投资增速大幅放缓。朱天教授指出，当前经济的核心问题是信心不足导致民间投资疲弱，而消费疲软是结果而非原因。政策上应着力恢复民营企业家信心和投资意愿。",
@@ -124,7 +136,7 @@ export const articles: Article[] = [
     language: "zh",
   },
   {
-    id: 10,
+    id: 12,
     titleZh: "投资教育技术，是推动长期增长\"三驾马车\"",
     titleEn: "Investment, Education, and Technology Are the \"Three Carriages\" Driving Long-Term Growth",
     excerptZh: "朱天教授在南方周末专访中指出：中国是所有发展中国家基础教育质量最好的国家，这是中国经济增长的主要优势。创新分为原创和引进消化吸收两种，中国在后者做得极好。他强调高储蓄率支撑的高投资率是中国经济增长奇迹的核心驱动力，不能将短期需求管理工具与长期增长动力混为一谈。",
@@ -136,7 +148,7 @@ export const articles: Article[] = [
     language: "zh",
   },
   {
-    id: 11,
+    id: 13,
     titleZh: "经济恢复难，关键要认清中国经济增长的特色和优势",
     titleEn: "Economic Recovery Is Difficult — Key Is to Recognize the Characteristics and Advantages of China's Economic Growth",
     excerptZh: "朱天教授反对中国经济主流叙事中事事与美国等发达国家相比的做法，主张通过与同等发展阶段的发展中国家动态比较来认识中国经济。他指出高储蓄、高投资是中国经济增长的特色和优势，消费是增长的结果而非原因。2024年中国经济恢复的关键在于提振民间投资信心。",
@@ -148,7 +160,7 @@ export const articles: Article[] = [
     language: "zh",
   },
   {
-    id: 12,
+    id: 14,
     titleZh: "消费扩大是经济增长的原因还是结果？",
     titleEn: "Expanding Consumption: Cause or Result of Economic Growth?",
     excerptZh: "2023年一季度中国GDP增长4.5%，好于市场预期。朱天教授指出，消费和出口是长期经济增长的结果而非驱动力。数据显示，消费占GDP比重极高的国家经济增长反而最慢，而中国和韩国等消费占比较低的国家增长最快。当前问题的根源不是消费不足，而是民间投资信心不足。",
@@ -160,7 +172,7 @@ export const articles: Article[] = [
     language: "zh",
   },
   {
-    id: 13,
+    id: 15,
     titleZh: "人口红利对中国经济的影响被大大高估了",
     titleEn: "The Impact of the Demographic Dividend on China's Economy Has Been Greatly Overestimated",
     excerptZh: "朱天教授用国际比较数据论证：人口红利对经济增长的贡献被大幅高估。东亚经济增长奇迹的真正驱动力是物质资本和人力资本的快速积累，以及技术进步——即高储蓄率支撑的高投资率和对教育的高度重视。人口的年龄结构对经济增长的解释力远不如这些因素。",
@@ -172,7 +184,7 @@ export const articles: Article[] = [
     language: "zh",
   },
   {
-    id: 14,
+    id: 16,
     titleZh: "中国是通货紧缩还是通货膨胀？",
     titleEn: "Is China Experiencing Deflation or Inflation?",
     excerptZh: "朱天与赖平耀合作撰文，利用国际通行的支出法和生产法对2015年中国GDP平减指数进行独立估算，发现当年通胀率可能被低估2-3个百分点。这一偏差显著影响了对真实经济增长、实际利率和货币政策取向的判断。文章指出问题不在于数据的真实性，而在于不变价GDP核算方法未能充分考虑进出口价格变动的影响。",
@@ -184,7 +196,7 @@ export const articles: Article[] = [
     language: "zh",
   },
   {
-    id: 15,
+    id: 17,
     titleZh: "中国经济：未来发展优势还在吗？",
     titleEn: "China's Economy: Are the Advantages for Future Development Still There?",
     excerptZh: "朱天教授分析中国经济未来发展的优势所在。他指出中国的高储蓄率和高投资率是经济增长的长期驱动力，同时中国的基础教育质量在发展中国家中名列前茅，这为人力资本积累和技术进步奠定了坚实基础。中国不会掉入中等收入陷阱，因为中国具备跨越陷阱的所有条件。",
@@ -196,7 +208,7 @@ export const articles: Article[] = [
     language: "zh",
   },
   {
-    id: 16,
+    id: 18,
     titleZh: "中国增长之谜：是制度还是文化？",
     titleEn: "The Mystery of China's Growth: Institutions or Culture?",
     excerptZh: "朱天教授探讨了中国经济高速增长背后的深层原因，提出文化因素——即儒家文化倡导的节俭储蓄和重视教育——是解释中国与其他发展中国家增长差异的关键变量。制度安排固然重要，但在同等制度条件下，东亚文化圈的高储蓄高教育传统为中国经济崛起提供了独特的文化基础。",
