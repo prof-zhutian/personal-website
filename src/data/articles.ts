@@ -5,6 +5,18 @@ import type { Article } from "@/types";
 export const articles: Article[] = [
   {
     id: 1,
+    titleZh: "AI时代，为什么文科商科依然重要",
+    titleEn: "Why Humanities and Business Majors Remain Important in the AI Era",
+    excerptZh: "AI越来越多地将技术性的技能固化为产品与工具，人类最有价值的技能正转向定义问题、设定目标、权衡取舍和承担责任——这些正是人文与社科教育最善于培养的能力。文科和商科不仅不会没落，反而在AI时代更加被需要。",
+    excerptEn: "As AI increasingly encapsulates technical skills into products and tools, the most valuable human abilities are shifting toward defining problems, setting goals, weighing trade-offs, and taking responsibility — capabilities that humanities and social science education are uniquely positioned to cultivate. Liberal arts and business disciplines may actually be more needed in the AI era.",
+    date: "2026-06-06",
+    sourceZh: "澎湃新闻",
+    sourceEn: "The Paper",
+    sourceUrl: "https://www.thepaper.cn/newsDetail_forward_33299528",
+    language: "zh",
+  },
+  {
+    id: 1,
     titleZh: "当前宏观经济的症结与破局——提振总需求与财政刺激的逻辑",
     titleEn: "The Root Cause of China's Macroeconomic Woes — The Logic of Boosting Aggregate Demand and Fiscal Stimulus",
     excerptZh: "当前宏观经济的症结在于总需求不足，导致资源闲置、产能过剩、投资回报下降和通缩压力。本文提出两条关键财政刺激措施：一是发行约4万亿消费券直接刺激消费；二是政府收购未完工房地产项目，转为保障性住房和廉租房，以稳定房地产市场、避免资源浪费。",
@@ -161,6 +173,18 @@ export const articles: Article[] = [
   },
   {
     id: 14,
+    titleZh: "中国是通货紧缩还是通货膨胀？",
+    titleEn: "Is China Experiencing Deflation or Inflation?",
+    excerptZh: "朱天与赖平耀合作撰文，利用国际通行的支出法和生产法对2015年中国GDP平减指数进行独立估算，发现当年通胀率可能被低估2-3个百分点。这一偏差显著影响了对真实经济增长、实际利率和货币政策取向的判断。文章指出问题不在于数据的真实性，而在于不变价GDP核算方法未能充分考虑进出口价格变动的影响。",
+    excerptEn: "Zhu Tian and Lai Pingyao independently estimate China's 2015 GDP deflator using internationally accepted methods, finding that inflation was likely underestimated by 2–3 percentage points. This deviation significantly distorts the assessment of real economic growth, real interest rates, and monetary policy stance. The issue lies not in data authenticity but in methodological problems with constant-price GDP calculation that fail to properly account for import and export price changes.",
+    date: "2016-11-02",
+    sourceZh: "FT中文网",
+    sourceEn: "FT Chinese",
+    sourceUrl: "https://www.ftchinese.com/story/001069948",
+    language: "zh",
+  },
+  {
+    id: 15,
     titleZh: "中国经济：未来发展优势还在吗？",
     titleEn: "China's Economy: Are the Advantages for Future Development Still There?",
     excerptZh: "朱天教授分析中国经济未来发展的优势所在。他指出中国的高储蓄率和高投资率是经济增长的长期驱动力，同时中国的基础教育质量在发展中国家中名列前茅，这为人力资本积累和技术进步奠定了坚实基础。中国不会掉入中等收入陷阱，因为中国具备跨越陷阱的所有条件。",
@@ -172,7 +196,7 @@ export const articles: Article[] = [
     language: "zh",
   },
   {
-    id: 15,
+    id: 16,
     titleZh: "中国增长之谜：是制度还是文化？",
     titleEn: "The Mystery of China's Growth: Institutions or Culture?",
     excerptZh: "朱天教授探讨了中国经济高速增长背后的深层原因，提出文化因素——即儒家文化倡导的节俭储蓄和重视教育——是解释中国与其他发展中国家增长差异的关键变量。制度安排固然重要，但在同等制度条件下，东亚文化圈的高储蓄高教育传统为中国经济崛起提供了独特的文化基础。",
