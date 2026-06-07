@@ -49,42 +49,50 @@ const workExperience: WorkEntry[] = [
   {
     periodZh: "2026年1月 – 至今",
     periodEn: "January 2026 – Present",
-    titleZh: "代理院长 · 副校长兼联席院长 · 经济学教授",
-    titleEn: "Interim Dean · Vice President & Co-Dean · Professor of Economics",
-    institutionZh: "中欧国际工商学院（CEIBS）",
+    titleZh: "代理教务长 · 副院长兼中方教务长 · 经济学教授",
+    titleEn: "Interim Dean · Vice President and Co-Dean · Professor of Economics",
+    institutionZh: "中欧国际工商学院",
     institutionEn: "China Europe International Business School (CEIBS)",
   },
   {
     periodZh: "2017年1月 – 2025年3月",
     periodEn: "January 2017 – March 2025",
-    titleZh: "副教务长兼EMBA课程主任 · 经济学教授",
-    titleEn: "Associate Dean & Director of EMBA Programme · Professor of Economics",
-    institutionZh: "中欧国际工商学院（CEIBS）",
+    titleZh: "副教务长兼EMBA课程主任",
+    titleEn: "Associate Dean and Director of EMBA Programme",
+    institutionZh: "中欧国际工商学院",
     institutionEn: "China Europe International Business School (CEIBS)",
   },
   {
     periodZh: "2011年 – 2016年",
     periodEn: "2011 – 2016",
-    titleZh: "经济学与决策科学系主任 · 经济学教授",
-    titleEn: "Department Chair of Economics and Decision Science · Professor of Economics",
-    institutionZh: "中欧国际工商学院（CEIBS）",
+    titleZh: "经济学和决策科学系系主任",
+    titleEn: "Department Chair of Economics and Decision Science",
+    institutionZh: "中欧国际工商学院",
+    institutionEn: "China Europe International Business School (CEIBS)",
+  },
+  {
+    periodZh: "2005年 – 至今",
+    periodEn: "2005 – Present",
+    titleZh: "经济学教授",
+    titleEn: "Professor of Economics",
+    institutionZh: "中欧国际工商学院",
     institutionEn: "China Europe International Business School (CEIBS)",
   },
   {
     periodZh: "1995年 – 2005年",
     periodEn: "1995 – 2005",
-    titleZh: "经济学系教授",
-    titleEn: "Faculty Member, Department of Economics",
+    titleZh: "任教十年",
+    titleEn: "Taught for ten years",
     institutionZh: "香港科技大学",
     institutionEn: "Hong Kong University of Science and Technology (HKUST)",
   },
   {
     periodZh: "1994年 – 1995年",
     periodEn: "1994 – 1995",
-    titleZh: "行业分析师",
+    titleZh: "产业分析师",
     titleEn: "Industry Analyst",
     institutionZh: "第一芝加哥银行，美国",
-    institutionEn: "First Chicago Bank, USA",
+    institutionEn: "First Chicago Bank, United States",
   },
 ];
 
@@ -104,7 +112,7 @@ export default function About() {
         </p>
       </div>
 
-      {/* 当前职务 */}
+      {/* 现任职务 */}
       <div className="mb-12">
         <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
           <span className="w-1 h-5 bg-primary rounded-full inline-block" />
@@ -113,15 +121,17 @@ export default function About() {
         <div className="ml-3 space-y-1 text-sm leading-relaxed text-muted-foreground">
           {isZh ? (
             <>
-              <p>中欧国际工商学院（CEIBS）副校长兼联席院长</p>
-              <p>中欧国际工商学院桑坦德经济学讲席教授</p>
+              <p>中欧国际工商学院 副院长兼中方教务长</p>
+              <p>代理教务长（2026年1月起）</p>
               <p>经济学教授</p>
+              <p>桑坦德经济学教席教授</p>
             </>
           ) : (
             <>
-              <p>Vice President & Co-Dean, CEIBS</p>
+              <p>Vice President and Co-Dean, CEIBS</p>
+              <p>Interim Dean (January 2026 – )</p>
+              <p>Professor of Economics</p>
               <p>Santander Chair in Economics, CEIBS</p>
-              <p>Professor of Economics, CEIBS</p>
             </>
           )}
         </div>
