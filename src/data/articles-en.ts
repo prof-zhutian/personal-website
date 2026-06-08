@@ -1,7 +1,7 @@
 import type { Article } from "@/types";
 
-// 朱天英文文章 — 来源：CEIBS 官网、微信公众号、国际媒体
-// English articles by Zhu Tian — Sources: CEIBS website, WeChat, international media
+// 朱天英文文章 — 来源：CEIBS 官网、China Daily、South China Morning Post、Financial Times 等
+// English articles by Zhu Tian — Sources: CEIBS website, China Daily, SCMP, Financial Times, etc.
 export const englishArticles: Article[] = [
   {
     id: 101,
@@ -85,6 +85,78 @@ export const englishArticles: Article[] = [
     sourceZh: "中欧国际工商学院",
     sourceEn: "CEIBS",
     sourceUrl: "https://www.ceibs.edu.cn/new-papers-columns/21614",
+    language: "en",
+  },
+  {
+    id: 108,
+    titleZh: "RCEP生效！将为中国带来哪些利好？",
+    titleEn: "RCEP Takes Effect! What Benefits Will It Bring to China?",
+    excerptZh: "2022年1月1日RCEP正式生效，朱天与白果教授合作撰文指出，RCEP的象征意义远超短期经济利益——它代表中国融入全球经济、坚持多边主义的承诺。RCEP促成了中日之间首次双边关税减让安排，建立起连接资源国、制造国和技术领先国的完整区域产业链。",
+    excerptEn: "Professors Zhu Tian and Bai Guo argue that RCEP — which took effect on January 1, 2022 — carries symbolic significance far exceeding its short-term economic benefits, representing China's commitment to global integration and multilateralism. The pact enables the first bilateral tariff concession arrangement between China and Japan, forming a complete regional industrial chain linking resource-based countries, manufacturing powers, and technology leaders.",
+    date: "2022-01-13",
+    sourceZh: "中欧国际工商学院",
+    sourceEn: "CEIBS",
+    sourceUrl: "https://www.ceibs.edu/new-papers-columns/20730",
+    language: "en",
+  },
+  {
+    id: 109,
+    titleZh: "中国企业如何走向全球？",
+    titleEn: "How Are Chinese Companies Going Global?",
+    excerptZh: "基于中欧对1046位EMBA学员企业的调查研究，朱天教授团队发现近三分之二的中国企业积极参与海外业务，约50%参与海外投融资。74.7%在亚洲有业务，58.5%在欧洲，57.2%在北美。尽管面临贸易保护主义和疫情挑战，超过半数企业认为全球化是不可逆转的趋势。人才短缺是最大挑战（51%的企业表示担忧）。",
+    excerptEn: "Based on a CEIBS survey of 1,046 EMBA students' companies, Professor Zhu Tian's team found that nearly two-thirds are actively engaged in overseas business, with about 50% participating in overseas investment and financing. 74.7% have operations in Asia, 58.5% in Europe, and 57.2% in North America. Despite trade protectionism and pandemic challenges, over half view globalization as an irreversible trend. Talent shortage is the greatest challenge (51% concerned).",
+    date: "2021-12-22",
+    sourceZh: "中欧国际工商学院",
+    sourceEn: "CEIBS",
+    sourceUrl: "https://www.ceibs.edu/new-papers-columns/20678",
+    language: "en",
+  },
+  {
+    id: 110,
+    titleZh: "如果出口萎缩，中国增长靠什么？",
+    titleEn: "If Exports Shrink, What Will Drive China's Growth?",
+    excerptZh: "朱天教授指出，中国出口依存度已从金融危机前的30%以上自然降至20%以下。贸易并非长期增长的主要驱动力——根本动力是投资、教育和技术进步。中国储蓄率和基础教育质量的优势依然突出，恢复民间投资信心才是当务之急。",
+    excerptEn: "Professor Zhu Tian notes that China's export dependence has naturally fallen from over 30% before the financial crisis to below 20%. Trade is not the primary driver of long-term growth — the fundamental engines are investment, education, and technological progress. China's advantages in savings rates and basic education quality remain outstanding, while restoring private investment confidence is the priority.",
+    date: "2020-11-05",
+    sourceZh: "中欧国际工商学院",
+    sourceEn: "CEIBS",
+    sourceUrl: "https://www.ceibs.edu/new-papers-columns/if-exports-shrink-what-will-drive-chinas-growth",
+    language: "en",
+  },
+  {
+    id: 111,
+    titleZh: "中国的消费能力将助推疫后经济复苏",
+    titleEn: "China's Ability to Consume Will Boost Economic Virus Recovery",
+    excerptZh: "疫情冲击下，中国经济的消费能力成为关注的焦点。朱天教授分析指出，中国的高储蓄率虽然在短期内抑制了消费，但同时也意味着巨大的消费潜力——一旦经济信心恢复，被压抑的消费需求有望迅速释放，成为经济恢复的重要驱动力。",
+    excerptEn: "Amid the pandemic shock, China's consumption capacity has come into focus. Professor Zhu Tian argues that while China's high savings rate has suppressed consumption in the short term, it also represents enormous consumption potential — once economic confidence is restored, pent-up consumer demand could be rapidly unleashed as a key driver of recovery.",
+    date: "2020-08-11",
+    sourceZh: "中欧国际工商学院",
+    sourceEn: "CEIBS",
+    sourceUrl: "https://www.ceibs.edu/new-papers-columns/china's-ability-consume-woost-economic-virus-recovery",
+    language: "en",
+  },
+  {
+    id: 112,
+    titleZh: "未来十年中国经济的关键",
+    titleEn: "Keys to China's Economic Development in the Coming Decade",
+    excerptZh: "朱天教授在《中国日报》发表评论文章，阐述未来十年中国经济发展的关键所在。他指出，只要中国坚持市场化、法治化、国际化的改革方向，依托高储蓄率和高投资率的优势，中国完全有能力实现持续较快增长。",
+    excerptEn: "In this op-ed for China Daily, Professor Zhu Tian outlines the keys to China's economic development in the coming decade. He argues that as long as China maintains market-oriented, rule-of-law-based, and internationalized reform, leveraging its advantages of high savings and high investment rates, it is fully capable of sustained rapid growth.",
+    date: "2020-01-07",
+    sourceZh: "中国日报 (China Daily)",
+    sourceEn: "China Daily",
+    sourceUrl: "https://global.chinadaily.com.cn/a/202001/06/WS5e1290b6a310cf3e355829f1.html",
+    language: "en",
+  },
+  {
+    id: 113,
+    titleZh: "未来十年，中国经济还能维持中高速增长吗？",
+    titleEn: "Will China's Economy Maintain Its Medium-to-High-Speed Growth in the Next Decade?",
+    excerptZh: "朱天教授基于其剑桥大学出版社英文著作《Catching Up to America》的核心观点，以英文撰文指出：中国经济增长奇迹的真正驱动力是高储蓄支撑的高投资、高质量的基础教育和快速的技术进步——三者均根植于儒家文化传统。中国的人均GDP仅为美国的16%左右，远低于日本和亚洲四小龙增长放缓时的40%门槛，追赶空间依然巨大。",
+    excerptEn: "Drawing on his Cambridge University Press book 'Catching Up to America,' Professor Zhu Tian argues that the true drivers of China's growth miracle are high investment supported by high savings, quality basic education, and rapid technological progress — all rooted in Confucian cultural traditions. With per capita GDP at only about 16% of the US level, far below the 40% threshold where Japan and the Asian Tigers saw growth decelerate, China still has enormous catch-up potential.",
+    date: "2019-12-20",
+    sourceZh: "中欧国际工商学院",
+    sourceEn: "CEIBS",
+    sourceUrl: "https://www.ceibs.edu/new-papers-columns/will-china's-economy-maintain-its-medium-high-speed-growth-next-decade",
     language: "en",
   },
 ];
