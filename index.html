@@ -6,6 +6,18 @@
     <title>朱天</title>
   </head>
   <body>
+    <!-- Restore the original path after a 404 → / redirect (used for /en routing) -->
+    <script>
+      (function() {
+        var redirect = sessionStorage.getItem('gh-redirect');
+        if (redirect) {
+          sessionStorage.removeItem('gh-redirect');
+          if (redirect !== location.pathname + location.search + location.hash) {
+            history.replaceState(null, '', redirect);
+          }
+        }
+      })();
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

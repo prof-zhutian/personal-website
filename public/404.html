@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <script>
+    // Store the requested path and redirect to the SPA root.
+    // The SPA will restore the path from sessionStorage and use it
+    // to determine the initial language (e.g. /en → English).
+    sessionStorage.setItem('gh-redirect', location.pathname + location.search + location.hash);
+    location.replace('/');
+  </script>
+</head>
+<body>
+  <p>Redirecting…</p>
+</body>
+</html>

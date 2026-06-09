@@ -10,11 +10,31 @@ interface I18nContextType {
 
 const I18nContext = createContext<I18nContextType | null>(null);
 
+function getInitialLang(): Lang {
+  if (typeof window !== 'undefined') {
+    if (/^\/en(\/.*)?$/.test(window.location.pathname)) return 'en';
+  }
+  return 'zh';
+}
+
+function getPathForLang(lang: Lang): string {
+  return lang === 'en' ? '/en' : '/';
+}
+
 export function I18nProvider({ children }: { children: ReactNode }) {
-  const [lang, setLang] = useState<Lang>("zh");
+  const [lang, setLang] = useState<Lang>(getInitialLang);
 
   const toggleLang = useCallback(() => {
-    setLang((prev) => (prev === "zh" ? "en" : "zh"));
+    setLang((prev) => {
+      const next = prev === "zh" ? "en" : "zh";
+      if (typeof window !== 'undefined') {
+        const newPath = getPathForLang(next);
+        if (window.location.pathname !== newPath) {
+          history.pushState(null, '', newPath);
+        }
+      }
+      return next;
+    });
   }, []);
 
   const t = useCallback(
