@@ -4,12 +4,12 @@ import Books from "@/sections/Books";
 import Articles from "@/sections/Articles";
 import Interviews from "@/sections/Interviews";
 import Footer from "@/sections/Footer";
+import CeibsHeader from "@/sections/CeibsHeader";
 
 function App() {
   return (
     <div className="min-h-screen bg-white text-foreground font-sans antialiased">
-      {/* CEIBS branding: subtle top accent bar */}
-      <div className="h-1 bg-primary" />
+      <CeibsHeader />
       <Hero />
       <About />
       <Books />
