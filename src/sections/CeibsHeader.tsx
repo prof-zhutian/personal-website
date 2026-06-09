@@ -16,17 +16,17 @@ export default function CeibsHeader() {
         <img
           src="/ceibs-logo-en.png"
           alt="CEIBS"
-          className="h-8 w-auto flex-shrink-0"
+          className="h-9 w-auto flex-shrink-0"
         />
 
         {/* Divider */}
-        <div className="w-px h-6 bg-border/60 flex-shrink-0" />
+        <div className="w-px h-7 bg-primary/50 flex-shrink-0" />
 
         {/* School Name */}
         <div className="flex flex-col leading-tight">
           {lang === "zh" ? (
             <span
-              className="font-serif text-sm tracking-[0.15em] text-foreground/80 whitespace-nowrap"
+              className="font-serif text-lg tracking-[0.15em] text-primary whitespace-nowrap"
               style={{
                 fontFamily:
                   '"STSong", "Songti SC", "Noto Serif SC", "SimSun", "宋体", serif',
@@ -36,7 +36,7 @@ export default function CeibsHeader() {
             </span>
           ) : (
             <span
-              className="font-serif text-[11px] tracking-[0.08em] text-foreground/80 whitespace-nowrap"
+              className="font-serif text-sm tracking-[0.1em] text-primary whitespace-nowrap"
               style={{
                 fontFamily:
                   '"Garamond", "Georgia", "Times New Roman", serif',
