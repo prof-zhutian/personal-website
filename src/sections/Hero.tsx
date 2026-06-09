@@ -6,12 +6,12 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-[70vh] flex flex-col items-center justify-center text-center px-6 pt-24 pb-16 relative"
+      className="min-h-[55vh] flex flex-col items-center justify-center text-center px-6 pt-16 pb-10 relative"
     >
       {/* Language Switcher */}
       <button
         onClick={toggleLang}
-        className="absolute top-6 right-6 text-xs font-medium px-3 py-1.5 rounded-full border border-border/60 hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
+        className="absolute top-6 right-6 text-xs font-medium px-3 py-1.5 rounded-full border border-border/60 hover:border-primary/40 hover:bg-primary/5 hover:text-primary transition-all text-muted-foreground"
         aria-label="Switch language"
       >
         {lang === "zh" ? "EN" : "中文"}

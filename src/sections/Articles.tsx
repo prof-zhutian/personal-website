@@ -13,11 +13,12 @@ export default function Articles() {
   const allArticles = lang === "zh" ? articles : englishArticles;
 
   return (
-    <section id="articles" className="max-w-5xl mx-auto px-6 py-24">
+    <section id="articles" className="max-w-5xl mx-auto px-6 py-16">
       <h2 className="text-2xl font-semibold tracking-tight mb-2">
         {t("articles.title")}
       </h2>
-      <p className="text-muted-foreground text-sm mb-12">
+      <div className="w-10 h-0.5 bg-primary/40 mb-6" />
+      <p className="text-muted-foreground text-sm mb-8">
         {t("articles.subtitle")}
       </p>
 

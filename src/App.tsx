@@ -8,6 +8,8 @@ import Footer from "@/sections/Footer";
 function App() {
   return (
     <div className="min-h-screen bg-white text-foreground font-sans antialiased">
+      {/* CEIBS branding: subtle top accent bar */}
+      <div className="h-1 bg-primary" />
       <Hero />
       <About />
       <Books />

@@ -4,8 +4,8 @@ export default function Footer() {
   const { t } = useI18n();
 
   return (
-    <footer id="contact" className="border-t border-border/60 mt-12">
-      <div className="max-w-5xl mx-auto px-6 py-16 text-center space-y-6">
+    <footer id="contact" className="border-t border-border/60 mt-8">
+      <div className="max-w-5xl mx-auto px-6 py-12 text-center space-y-6">
         <h2 className="text-xl font-semibold tracking-tight">
           {t("footer.title")}
         </h2>
@@ -19,6 +19,11 @@ export default function Footer() {
           </a>
         </p>
         <Separator className="!my-8 max-w-xs mx-auto" />
+        <p className="text-xs text-muted-foreground/60 space-x-2">
+          <span className="font-medium text-foreground/40">中欧国际工商学院</span>
+          <span className="text-border/60">|</span>
+          <span className="font-medium text-foreground/40">CEIBS</span>
+        </p>
         <p className="text-xs text-muted-foreground/60">
           {t("footer.copyright", { year: String(new Date().getFullYear()) })}
         </p>

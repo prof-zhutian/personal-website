@@ -22,11 +22,12 @@ export default function Interviews() {
   const allInterviews = lang === "zh" ? interviews : englishInterviews;
 
   return (
-    <section id="interviews" className="max-w-5xl mx-auto px-6 py-24">
+    <section id="interviews" className="max-w-5xl mx-auto px-6 py-16">
       <h2 className="text-2xl font-semibold tracking-tight mb-2">
         {t("interviews.title")}
       </h2>
-      <p className="text-muted-foreground text-sm mb-12">
+      <div className="w-10 h-0.5 bg-primary/40 mb-6" />
+      <p className="text-muted-foreground text-sm mb-8">
         {t("interviews.subtitle")}
       </p>
 

@@ -9,11 +9,12 @@ export default function About() {
   const isZh = lang === "zh";
 
   return (
-    <section id="about" className="max-w-3xl mx-auto px-6 py-20">
-      <div className="mb-8 text-center">
+    <section id="about" className="max-w-3xl mx-auto px-6 py-14">
+      <div className="mb-6 text-center">
         <h2 className="text-3xl font-bold tracking-tight mb-2">
           {t("about.title")}
         </h2>
+        <div className="w-10 h-0.5 bg-primary/40 mx-auto" />
       </div>
 
       <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed">

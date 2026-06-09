@@ -14,11 +14,12 @@ export default function Books() {
     : books.filter((b) => b.language === "en");
 
   return (
-    <section id="books" className="max-w-5xl mx-auto px-6 py-24">
+    <section id="books" className="max-w-5xl mx-auto px-6 py-16">
       <h2 className="text-2xl font-semibold tracking-tight mb-2">
         {t("books.title")}
       </h2>
-      <p className="text-muted-foreground text-sm mb-12">
+      <div className="w-10 h-0.5 bg-primary/40 mb-6" />
+      <p className="text-muted-foreground text-sm mb-8">
         {t("books.subtitle")}
       </p>
 
