@@ -11,7 +11,7 @@ export default function Hero() {
       {/* Language Switcher */}
       <button
         onClick={toggleLang}
-        className="absolute top-4 sm:top-6 right-4 sm:right-6 text-xs font-medium px-3 py-1.5 rounded-full border border-border/60 hover:border-primary/40 hover:bg-primary/5 hover:text-primary transition-all text-muted-foreground min-h-[36px] min-w-[44px]"
+        className="absolute top-4 sm:top-6 right-4 sm:right-6 z-10 text-xs font-medium px-3 py-1.5 rounded-full border border-border/60 hover:border-primary/40 hover:bg-primary/5 hover:text-primary transition-all text-muted-foreground min-h-[36px] min-w-[44px]"
         aria-label="Switch language"
       >
         {lang === "zh" ? "EN" : "中文"}

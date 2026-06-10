@@ -4,13 +4,13 @@ export default function CeibsHeader() {
   const { lang } = useI18n();
 
   return (
-    <header className="absolute top-0 left-0 right-0 z-20 flex items-center px-4 sm:px-6 py-3 sm:py-4">
+    <header className="absolute top-0 left-0 z-20 flex items-center px-4 sm:px-6 py-3 sm:py-4 pointer-events-none">
       {/* CEIBS Logo Mark */}
       <a
         href="https://www.ceibs.edu"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center gap-2 sm:gap-4 group"
+        className="flex items-center gap-2 sm:gap-4 group pointer-events-auto"
         aria-label="CEIBS"
       >
         <img
