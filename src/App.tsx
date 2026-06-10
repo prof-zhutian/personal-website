@@ -14,9 +14,9 @@ function App() {
       <Hero />
       <About />
       <Books />
-      <Papers />
       <Articles />
       <Interviews />
+      <Papers />
       <Footer />
     </div>
   );

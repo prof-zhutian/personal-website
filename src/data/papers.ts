@@ -5,12 +5,15 @@ import type { JournalPaper } from "@/types";
 export const journalPapers: JournalPaper[] = [
   {
     id: 1,
-    authors: "Tian Zhu, Pingyao Lai",
+    authors: "Pingyao Lai, Tian Zhu",
     title: "Deflating China's Nominal GDP: 2004–2018",
     journal: "China Economic Review",
-    year: "forthcoming",
+    year: 2022,
+    volume: "71",
+    pages: "101709",
+    doi: "10.1016/j.chieco.2021.101709",
     abstract:
-      "This paper constructs alternative deflators for China's nominal GDP over the period 2004–2018. The authors find that official deflators significantly overstate price increases, leading to a systematic underestimation of real GDP growth. The study provides improved estimates of China's real economic growth and discusses the implications for understanding the pace of China's economic convergence.",
+      "This paper uses both the value added approach with double deflation and the expenditure approach to deflate China's nominal GDP over 15 years (2004–2018). The results show that China's real GDP growth during the period has significantly more fluctuations than the official statistics indicate. Additionally, inflation, as measured by the official implicit GDP deflator, is generally overestimated during boom years but underestimated during downturn years. In particular, China's growth slowdown in recent years before the COVID-19 pandemic may have been more severe than official figures suggest.",
   },
   {
     id: 2,
