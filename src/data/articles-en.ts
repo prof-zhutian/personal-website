@@ -159,4 +159,16 @@ export const englishArticles: Article[] = [
     sourceUrl: "https://www.ceibs.edu/new-papers-columns/will-china's-economy-maintain-its-medium-high-speed-growth-next-decade",
     language: "en",
   },
+  {
+    id: 114,
+    titleZh: "中国的教育体制会扼杀经济增长吗？",
+    titleEn: "Will China's Educational System Strangle Economic Growth?",
+    excerptZh: "许多人担心中国的应试教育会扼杀创新、阻碍经济向高收入阶段的转型。朱天教授在《福布斯》撰文，引证跨国数据指出：中国的基础教育质量在全球名列前茅，中国学生进入西方大学后的创新能力不逊于任何国家，WIPO 数据显示中国贡献了发达国家 16.3% 的移民发明者。中国真正的短板在研究生教育和人均研发支出，而非 K-12 教育。结论：中国的教育体制不仅不会扼杀增长，反而推动中国成为过去二十年全球创新增长最快的国家。",
+    excerptEn: "Many worry that China's exam-oriented education system will stifle innovation and prevent the country from becoming a high-income economy. In this Forbes article, Professor Zhu Tian marshals cross-country data to argue that China's basic education quality ranks among the world's best, Chinese students are no less creative than their foreign peers once they enter Western postgraduate programs, and WIPO data shows China contributes 16.3% of immigrant inventors to developed nations. The real gap lies in postgraduate education and per capita R&D spending — not K-12 schooling. His conclusion: far from strangling growth, China's education system has helped make the country the fastest-growing nation in innovation over the past two decades.",
+    date: "2016-05-16",
+    sourceZh: "福布斯 (Forbes)",
+    sourceEn: "Forbes",
+    sourceUrl: "https://www.forbes.com/sites/ceibs/2016/05/16/will-chinas-educational-system-strangle-economic-growth/",
+    language: "en",
+  },
 ];
