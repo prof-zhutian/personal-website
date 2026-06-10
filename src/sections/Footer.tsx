@@ -5,12 +5,12 @@ export default function Footer() {
 
   return (
     <footer id="contact" className="border-t border-border/60 mt-8">
-      <div className="max-w-5xl mx-auto px-6 py-12 text-center space-y-6">
-        <h2 className="text-xl font-semibold tracking-tight">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-10 sm:py-12 text-center space-y-5 sm:space-y-6">
+        <h2 className="text-lg sm:text-xl font-semibold tracking-tight">
           {t("footer.title")}
         </h2>
-        <p className="text-sm text-muted-foreground">
-          {t("footer.email_text")}
+        <p className="text-xs sm:text-sm text-muted-foreground px-2">
+          {t("footer.email_text")}{" "}
           <a
             href="mailto:ztian@ceibs.edu"
             className="text-primary underline underline-offset-4 decoration-primary/40 hover:decoration-primary transition-colors"

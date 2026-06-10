@@ -9,24 +9,24 @@ export default function Papers() {
   const { t } = useI18n();
 
   return (
-    <section id="papers" className="max-w-5xl mx-auto px-6 py-16">
-      <h2 className="text-2xl font-semibold tracking-tight mb-2">
+    <section id="papers" className="max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <h2 className="text-xl sm:text-2xl font-semibold tracking-tight mb-2">
         {t("papers.title")}
       </h2>
       <div className="w-10 h-0.5 bg-primary/40 mb-6" />
-      <p className="text-muted-foreground text-sm mb-8">
+      <p className="text-muted-foreground text-xs sm:text-sm mb-8">
         {t("papers.subtitle")}
       </p>
 
-      <div className="space-y-5">
+      <div className="space-y-4 sm:space-y-5">
         {journalPapers.map((paper) => (
           <Card
             key={paper.id}
             className="border border-border/60 bg-white rounded-xl hover:shadow-md transition-shadow duration-300"
           >
-            <CardContent className="p-5 space-y-3">
+            <CardContent className="p-4 sm:p-5 space-y-2.5 sm:space-y-3">
               {/* Year + Journal */}
-              <div className="flex items-center gap-3 text-xs text-muted-foreground flex-wrap">
+              <div className="flex items-center gap-2 sm:gap-3 text-xs text-muted-foreground flex-wrap">
                 <Badge variant="secondary" className="text-xs font-normal bg-primary/10 text-primary border-primary/20">
                   {paper.year === "forthcoming" ? t("papers.forthcoming") : paper.year}
                 </Badge>
@@ -45,7 +45,7 @@ export default function Papers() {
               </div>
 
               {/* Title */}
-              <h3 className="font-semibold text-base leading-snug">
+              <h3 className="font-semibold text-sm sm:text-base leading-snug">
                 {paper.doi ? (
                   <a
                     href={`https://doi.org/${paper.doi}`}
@@ -77,7 +77,7 @@ export default function Papers() {
               </p>
 
               {/* Abstract */}
-              <p className="text-sm text-muted-foreground leading-relaxed">
+              <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
                 {paper.abstract}
               </p>
 
@@ -85,13 +85,13 @@ export default function Papers() {
               {paper.doi && (
                 <>
                   <Separator className="!my-2" />
-                  <div className="flex items-center gap-2 text-xs text-muted-foreground">
+                  <div className="flex items-center gap-2 text-xs text-muted-foreground flex-wrap">
                     <span>DOI:</span>
                     <a
                       href={`https://doi.org/${paper.doi}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-primary hover:underline font-mono"
+                      className="text-primary hover:underline font-mono break-all"
                     >
                       {paper.doi}
                     </a>

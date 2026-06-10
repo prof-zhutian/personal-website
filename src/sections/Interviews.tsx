@@ -22,36 +22,36 @@ export default function Interviews() {
   const allInterviews = lang === "zh" ? interviews : englishInterviews;
 
   return (
-    <section id="interviews" className="max-w-5xl mx-auto px-6 py-16">
-      <h2 className="text-2xl font-semibold tracking-tight mb-2">
+    <section id="interviews" className="max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <h2 className="text-xl sm:text-2xl font-semibold tracking-tight mb-2">
         {t("interviews.title")}
       </h2>
       <div className="w-10 h-0.5 bg-primary/40 mb-6" />
-      <p className="text-muted-foreground text-sm mb-8">
+      <p className="text-muted-foreground text-xs sm:text-sm mb-8">
         {t("interviews.subtitle")}
       </p>
 
-      <div className="space-y-6">
+      <div className="space-y-4 sm:space-y-6">
         {allInterviews.map((interview) => (
           <div
             key={interview.id}
-            className="group rounded-lg border border-border bg-card p-6 transition-shadow hover:shadow-md"
+            className="group rounded-lg border border-border bg-card p-4 sm:p-6 transition-shadow hover:shadow-md"
           >
-            <div className="flex items-start justify-between gap-4">
+            <div className="flex items-start justify-between gap-3 sm:gap-4">
               <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-2 mb-1 flex-wrap">
+                <div className="flex items-center gap-1.5 sm:gap-2 mb-1 flex-wrap">
                   <span className="text-xs text-muted-foreground">
                     {formatDate(interview.date, lang)}
                   </span>
-                  <span className="text-xs text-muted-foreground">·</span>
+                  <span className="text-xs text-muted-foreground hidden sm:inline">·</span>
                   <span className="text-xs font-medium text-primary">
                     {lang === "zh" ? interview.sourceZh : interview.sourceEn}
                   </span>
                 </div>
-                <h3 className="text-base font-semibold text-foreground mb-2 leading-snug">
+                <h3 className="text-sm sm:text-base font-semibold text-foreground mb-1.5 sm:mb-2 leading-snug">
                   {lang === "zh" ? interview.titleZh : interview.titleEn}
                 </h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">
+                <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
                   {lang === "zh"
                     ? interview.descriptionZh
                     : interview.descriptionEn}
@@ -62,7 +62,7 @@ export default function Interviews() {
                   href={interview.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="shrink-0 inline-flex items-center gap-1.5 text-xs font-medium text-primary hover:text-primary/80 transition-colors mt-1"
+                  className="shrink-0 inline-flex items-center gap-1.5 text-xs font-medium text-primary hover:text-primary/80 transition-colors mt-0.5 min-h-[44px]"
                 >
                   <span className="hidden sm:inline">
                     {t("interviews.view")}

@@ -13,16 +13,16 @@ export default function Articles() {
   const allArticles = lang === "zh" ? articles : englishArticles;
 
   return (
-    <section id="articles" className="max-w-5xl mx-auto px-6 py-16">
-      <h2 className="text-2xl font-semibold tracking-tight mb-2">
+    <section id="articles" className="max-w-5xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+      <h2 className="text-xl sm:text-2xl font-semibold tracking-tight mb-2">
         {t("articles.title")}
       </h2>
       <div className="w-10 h-0.5 bg-primary/40 mb-6" />
-      <p className="text-muted-foreground text-sm mb-8">
+      <p className="text-muted-foreground text-xs sm:text-sm mb-8">
         {t("articles.subtitle")}
       </p>
 
-      <div className="space-y-6">
+      <div className="space-y-4 sm:space-y-6">
         {allArticles.map((article) => {
           const title = lang === "zh" ? article.titleZh : article.titleEn;
           const excerpt = lang === "zh" ? article.excerptZh : article.excerptEn;
@@ -33,9 +33,9 @@ export default function Articles() {
               key={article.id}
               className="border border-border/60 bg-white rounded-xl hover:shadow-md transition-shadow duration-300"
             >
-              <CardContent className="p-6 space-y-3">
-                {/* 日期 + 媒体来源 */}
-                <div className="flex items-center gap-3 text-xs text-muted-foreground">
+              <CardContent className="p-4 sm:p-6 space-y-2.5 sm:space-y-3">
+                {/* Date + Source */}
+                <div className="flex items-center gap-2 sm:gap-3 text-xs text-muted-foreground flex-wrap">
                   <span>
                     {new Date(article.date).toLocaleDateString(
                       lang === "zh" ? "zh-CN" : "en-US",
@@ -44,7 +44,7 @@ export default function Articles() {
                   </span>
                   {source && (
                     <>
-                      <span>·</span>
+                      <span className="hidden sm:inline">·</span>
                       <Badge variant="secondary" className="text-xs font-normal">
                         {source}
                       </Badge>
@@ -52,8 +52,8 @@ export default function Articles() {
                   )}
                 </div>
 
-                {/* 标题 */}
-                <h3 className="font-semibold text-lg leading-snug">
+                {/* Title */}
+                <h3 className="font-semibold text-base sm:text-lg leading-snug">
                   {article.sourceUrl ? (
                     <a
                       href={article.sourceUrl}
@@ -62,37 +62,36 @@ export default function Articles() {
                       className="hover:text-primary/70 transition-colors inline-flex items-center gap-1.5"
                     >
                       {title}
-                      <SquareArrowOutUpRight className="w-3.5 h-3.5 text-muted-foreground" />
+                      <SquareArrowOutUpRight className="w-3.5 h-3.5 text-muted-foreground shrink-0" />
                     </a>
                   ) : (
                     title
                   )}
                 </h3>
 
-                {/* 摘要 或 全文 */}
+                {/* Excerpt or Full content */}
                 {article.content ? (
-                  <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed whitespace-pre-line">
+                  <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed whitespace-pre-line text-sm">
                     {article.content}
                   </div>
                 ) : (
-                  <p className="text-sm text-muted-foreground leading-relaxed">
+                  <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">
                     {excerpt}
                   </p>
                 )}
 
-                {/* 原文链接 */}
+                {/* Read original link */}
                 {article.sourceUrl && (
                   <>
-                    <Separator className="!my-3" />
+                    <Separator className="!my-2 sm:!my-3" />
                     <a
                       href={article.sourceUrl}
                       target="_blank"
                       rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-xs text-primary hover:underline min-h-[44px]"
                     >
-                      <span className="inline-flex items-center gap-1.5 text-xs text-primary hover:underline">
-                        <FileText className="w-3 h-3" />
-                        {t("articles.read_original")}
-                      </span>
+                      <FileText className="w-3 h-3" />
+                      {t("articles.read_original")}
                     </a>
                   </>
                 )}
