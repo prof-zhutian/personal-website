@@ -104,6 +104,18 @@ export const englishInterviews: MediaInterview[] = [
   },
   {
     id: 9,
+    titleZh: "《经济学人》: 金马桶能拯救中国经济吗？",
+    titleEn: "Can Golden Toilets Fix China's Economy?",
+    date: "2025-12-04",
+    sourceZh: "The Economist",
+    sourceEn: "The Economist",
+    descriptionZh: "《经济学人》引用朱天教授观点，指出将中国需求的广泛疲弱主要解读为供给侧问题是错误的，消费需求不足才是核心挑战。",
+    descriptionEn: "The Economist quoted Prof. Zhu Tian, who argued it is a mistake to interpret China's broader demand weakness primarily as a supply-side problem — weak consumer demand is the core challenge.",
+    url: "https://www.economist.com/china/2025/12/04/can-golden-toilets-fix-chinas-economy",
+    language: "en",
+  },
+  {
+    id: 10,
     titleZh: "德国《商报》: 全球第二大经济体为何持续低迷",
     titleEn: "Why the World's Second-Largest Economy Remains in Crisis",
     date: "2025-12-02",
@@ -115,7 +127,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 10,
+    id: 11,
     titleZh: "德国《法兰克福汇报》: 中国官方数字货币意义不大",
     titleEn: "China's Official Digital Currency Is Pointless",
     date: "2025-12-02",
@@ -127,7 +139,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 11,
+    id: 12,
     titleZh: "彭博社: 中国根深蒂固的通缩风险",
     titleEn: "China's Entrenched Deflation Risk — Why Prices Keep Falling",
     date: "2025-11-10",
@@ -139,7 +151,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 12,
+    id: 13,
     titleZh: "《海峡时报》: 提振私人消费的措施力度不够",
     titleEn: "Moves to Boost Private Spending in China Need to Go Further",
     date: "2025-03-05",
@@ -151,7 +163,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 13,
+    id: 14,
     titleZh: "《华盛顿邮报》: 中国有条件抵御中美贸易动荡",
     titleEn: "China in Strong Position to Weather US-China Trade Turbulence",
     date: "2025-02-10",
@@ -163,7 +175,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 14,
+    id: 15,
     titleZh: "德国《商报》: 特朗普对华关税态度相对温和",
     titleEn: "Trump's Surprisingly Mild Approach to Tariffs on China — So Far",
     date: "2025-01-22",
@@ -175,7 +187,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 15,
+    id: 16,
     titleZh: "《华盛顿邮报》: 提振房地产和现金发放可刺激中国经济",
     titleEn: "Boosting Property Sector and Cash Payments Can Give China the Boost It Needs",
     date: "2025-01-01",
@@ -189,7 +201,7 @@ export const englishInterviews: MediaInterview[] = [
 
   // === 2024 ===
   {
-    id: 16,
+    id: 17,
     titleZh: "《纽约时报》: 中国政府刺激经济的最新举措",
     titleEn: "China's Latest Moves to Stimulate the Economy",
     date: "2024-12-12",
@@ -201,7 +213,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 17,
+    id: 18,
     titleZh: "《海峡时报》: 特朗普回归对中国经济的影响",
     titleEn: "How China's Economy Will Be Affected by the Return of Donald Trump",
     date: "2024-11-09",
@@ -213,7 +225,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 18,
+    id: 19,
     titleZh: "法国《回声报》: 特朗普关税对中国经济的影响",
     titleEn: "With Trump, China Prepares for New Economic Turbulence",
     date: "2024-11-06",
@@ -225,7 +237,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 19,
+    id: 20,
     titleZh: "《海峡时报》: 对中国三中全会的谨慎期待",
     titleEn: "Hopes for China's Third Plenum Met with Cautious Welcome",
     date: "2024-07-20",
@@ -237,7 +249,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 20,
+    id: 21,
     titleZh: "SCMP: 政府工作报告对民营经济意味着什么",
     titleEn: "What the Premier's Work Report Means for the Private Sector",
     date: "2024-03-04",
@@ -249,7 +261,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 21,
+    id: 22,
     titleZh: "路透社: 需要更多刺激措施避免'恶性循环'",
     titleEn: "More Stimulus Needed to Avoid a 'Vicious Cycle' of Low Confidence",
     date: "2024-01-18",
@@ -263,7 +275,7 @@ export const englishInterviews: MediaInterview[] = [
 
   // === 2023 ===
   {
-    id: 22,
+    id: 23,
     titleZh: "《纽约时报》: 中国金融业正在发生深刻变化",
     titleEn: "China's Changing Finance Sector Under Xi Jinping",
     date: "2023-12-05",
@@ -275,7 +287,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 23,
+    id: 24,
     titleZh: "《金融时报》: 中国后疫情复苏为何不及预期",
     titleEn: "China's Post-Pandemic Recovery — Why Growth Is Falling Short",
     date: "2023-06-14",
@@ -287,7 +299,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 24,
+    id: 25,
     titleZh: "加拿大《环球邮报》: 中国经济有望健康复苏",
     titleEn: "China's Economy Looks Set for a Healthy Recovery in 2023",
     date: "2023-01-31",
@@ -301,7 +313,7 @@ export const englishInterviews: MediaInterview[] = [
 
   // === 2022 ===
   {
-    id: 25,
+    id: 26,
     titleZh: "巴西《环球报》: 中国疫情政策对世界经济的连锁影响",
     titleEn: "Knock-on Effects of China's COVID Policy on the World Economy",
     date: "2022-07-09",
@@ -313,7 +325,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 26,
+    id: 27,
     titleZh: "《中国日报》: 对接高标准全球贸易规则",
     titleEn: "Aligning with High-Level Global Trade Rules",
     date: "2022-02-14",
@@ -325,7 +337,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 27,
+    id: 28,
     titleZh: "加拿大《环球邮报》: 如果疫情可控，中国有望迎来增长年",
     titleEn: "China in for a Year of Growth if COVID Stays Under Control",
     date: "2022-01-05",
@@ -339,7 +351,7 @@ export const englishInterviews: MediaInterview[] = [
 
   // === 2021 ===
   {
-    id: 28,
+    id: 29,
     titleZh: "CNBC: 恒大危机不会对中国经济产生巨大冲击（电视采访）",
     titleEn: "Evergrande Crisis Will Not Have Huge Impact on China's Economy — TV Interview",
     date: "2021-10-18",
@@ -351,7 +363,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 29,
+    id: 30,
     titleZh: "《中国日报》: 对外开放是中国经济崛起的关键",
     titleEn: "Opening-Up Policies a Key Factor in China's Economic Rise",
     date: "2021-12-10",
@@ -365,7 +377,7 @@ export const englishInterviews: MediaInterview[] = [
 
   // === 2020 ===
   {
-    id: 30,
+    id: 31,
     titleZh: "路透社: 中国国际进口博览会是回归常态的信号",
     titleEn: "China International Import Expo Is a Sign of Normalization",
     date: "2020-11-02",
@@ -377,7 +389,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 31,
+    id: 32,
     titleZh: "彭博社: 中国1.4万亿美元科技追赶计划",
     titleEn: "China Has a New $1.4 Trillion Plan to Overtake the US in Tech",
     date: "2020-05-20",
@@ -389,7 +401,7 @@ export const englishInterviews: MediaInterview[] = [
     language: "en",
   },
   {
-    id: 32,
+    id: 33,
     titleZh: "《中国日报》: 国有银行在疫后经济复苏中发挥关键作用",
     titleEn: "State-Owned Banks Key to Getting China's Economy Moving Post-COVID-19",
     date: "2020-04-17",
