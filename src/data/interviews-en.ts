@@ -1,7 +1,7 @@
 import type { MediaInterview } from "@/types";
 
-// English-language media interviews and coverage — sourced from CEIBS faculty page
-// Ordered newest to oldest
+// English-language media interviews & coverage — sourced from CEIBS faculty page
+// Ordered newest to oldest (2020–2026)
 export const englishInterviews: MediaInterview[] = [
   // === 2026 ===
   {
