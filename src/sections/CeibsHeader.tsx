@@ -16,30 +16,33 @@ export default function CeibsHeader() {
         <img
           src="/ceibs-logo-en.png"
           alt="CEIBS"
-          className="h-9 w-auto flex-shrink-0"
+          className="h-10 w-auto flex-shrink-0"
         />
 
         {/* Divider */}
         <div className="w-px h-7 bg-primary/50 flex-shrink-0" />
 
         {/* School Name */}
-        <div className="flex flex-col leading-tight">
+        <div className="flex flex-col leading-tight gap-0.5">
           {lang === "zh" ? (
             <span
-              className="font-serif text-lg tracking-[0.15em] text-primary whitespace-nowrap"
+              className="font-bold tracking-[0.12em] text-primary whitespace-nowrap"
               style={{
                 fontFamily:
-                  '"STSong", "Songti SC", "Noto Serif SC", "SimSun", "宋体", serif',
+                  '"PingFang SC", "Microsoft YaHei", "Noto Sans SC", "Source Han Sans SC", "Hiragino Sans GB", sans-serif',
+                fontSize: "22px",
               }}
             >
               中欧国际工商学院
             </span>
           ) : (
             <span
-              className="font-serif text-sm tracking-[0.1em] text-primary whitespace-nowrap"
+              className="font-bold tracking-[0.08em] text-primary whitespace-nowrap"
               style={{
                 fontFamily:
-                  '"Garamond", "Georgia", "Times New Roman", serif',
+                  '"Helvetica Neue", "Arial", "Gotham", "Segoe UI", "Lucida Grande", sans-serif',
+                fontSize: "15px",
+                fontWeight: 700,
               }}
             >
               China Europe International Business School
