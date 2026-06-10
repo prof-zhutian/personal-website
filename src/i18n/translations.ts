@@ -24,6 +24,11 @@ export const translations: Record<Lang, Record<string, string>> = {
     "articles.read_original": "阅读原文",
     "articles.no_articles": "暂无文章",
 
+    // Papers section
+    "papers.title": "学术论文",
+    "papers.subtitle": "国际期刊发表",
+    "papers.forthcoming": "即将发表",
+
     // Interviews section
     "interviews.title": "Interviews",
     "interviews.subtitle": "媒体采访与报道",
@@ -67,6 +72,11 @@ export const translations: Record<Lang, Record<string, string>> = {
     "articles.subtitle": "Published Articles",
     "articles.read_original": "Read Original",
     "articles.no_articles": "No articles yet",
+
+    // Papers section
+    "papers.title": "Academic Papers",
+    "papers.subtitle": "Refereed Journal Articles",
+    "papers.forthcoming": "Forthcoming",
 
     // Interviews section
     "interviews.title": "Interviews",

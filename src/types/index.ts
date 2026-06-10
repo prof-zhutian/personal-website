@@ -44,5 +44,19 @@ export interface MediaInterview {
   language: "zh" | "en";
 }
 
+export interface JournalPaper {
+  id: number;
+  authors: string;
+  title: string;
+  journal: string;
+  year: number | "forthcoming";
+  volume?: string;
+  pages?: string;
+  doi?: string;
+  abstract: string;
+  note?: string; // e.g. "Winner of the Bergson Prize"
+  link?: string; // fallback URL if no DOI
+}
+
 // 确保 esbuild 不会把这个模块当作空模块
 export default {};
