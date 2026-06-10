@@ -5,7 +5,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     // Hero
     "hero.name": "朱天",
     "hero.subtitle": "中欧国际工商学院经济学教授",
-    "hero.nav.books": "作品",
+    "hero.nav.books": "书",
     "hero.nav.articles": "文章",
     "hero.nav.papers": "学术论文",
     "hero.nav.interviews": "采访",
@@ -57,7 +57,7 @@ export const translations: Record<Lang, Record<string, string>> = {
     "hero.subtitle": "Professor of Economics, CEIBS",
     "hero.nav.books": "Books",
     "hero.nav.articles": "Articles",
-    "hero.nav.papers": "Papers",
+    "hero.nav.papers": "Academic Papers",
     "hero.nav.interviews": "Interviews",
     "hero.nav.about": "About",
     "hero.nav.contact": "Contact",
