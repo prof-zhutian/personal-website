@@ -171,4 +171,16 @@ export const englishArticles: Article[] = [
     sourceUrl: "https://www.forbes.com/sites/ceibs/2016/05/16/will-chinas-educational-system-strangle-economic-growth/",
     language: "en",
   },
+  {
+    id: 115,
+    titleZh: `抛弃\u201c中国消费者不舍得花钱\u201d的迷思`,
+    titleEn: "Abandon the Myth of the Reluctant Chinese Shopper",
+    excerptZh: `朱天教授与复旦大学张军教授在《金融时报》联名撰文，指出\u201c中国消费过低\u201d的流行观念是一个基于错误理论和官方数据表面解读的迷思。他们认为，中国的居民消费被系统性地低估了——官方统计未能充分反映住房服务、医疗支出和服务业消费的真实规模。中国消费者并非\u201c不舍得花钱\u201d，消费占GDP比重被人为压低的主要原因是投资增速远超消费增速，而非消费本身增长缓慢。该观点后来在两位作者获得 Bergson 奖的学术论文中得到更系统的论证。`,
+    excerptEn: "In this Financial Times op-ed, Professors Zhu Tian and Zhang Jun argue that the popular belief that China's consumption is too low is a myth — rooted in flawed demand-side theory and a superficial reading of official data. They contend that China's household consumption is systematically underestimated in official statistics, which fail to capture the true scale of spending on housing services, healthcare, and services more broadly. The so-called 'reluctant Chinese shopper' is a statistical illusion: China's consumption-to-GDP ratio appears low not because consumption growth has been slow, but because investment has grown even faster. This argument would later receive systematic academic treatment in their Bergson Prize-winning paper.",
+    date: "2013-01-15",
+    sourceZh: "金融时报 (Financial Times)",
+    sourceEn: "Financial Times",
+    sourceUrl: "https://www.ft.com/content/0c350d72-5c22-11e2-bef7-00144feab49a",
+    language: "en",
+  },
 ];
