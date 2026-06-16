@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-[55vh] flex flex-col items-center justify-center text-center px-4 sm:px-6 pt-24 sm:pt-32 pb-8 sm:pb-10 relative"
+      className="min-h-[55vh] flex flex-col items-center justify-center text-center px-4 sm:px-6 pt-24 sm:pt-32 pb-8 sm:pb-10 relative z-30"
     >
       {/* Language Switcher */}
       <button
