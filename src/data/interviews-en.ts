@@ -23,7 +23,7 @@ export const englishInterviews: MediaInterview[] = [
     date: "2026-06-12",
     sourceZh: "South China Morning Post",
     sourceEn: "South China Morning Post",
-    descriptionZh: "《南华早报》引用朱天教授评论中国监管机构的执法动向，指出当前监管并非"打压"，但2021年科技行业整顿的记忆仍在影响市场情绪。",
+    descriptionZh: "《南华早报》引用朱天教授评论中国监管机构的执法动向，指出当前监管并非打压，但2021年科技行业整顿的记忆仍在影响市场情绪。",
     descriptionEn: "Prof. Zhu Tian told SCMP that recent regulatory enforcement is 'not a crackdown', but acknowledged that memories of the 2021 tech crackdown continue to fuel fresh market worries.",
     url: "https://www.scmp.com/economy/china-economy/article/3356909/not-crackdown-china-regulators-signal-more-neutral-enforcement-shift-2021",
     language: "en",
