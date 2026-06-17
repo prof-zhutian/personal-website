@@ -2,6 +2,18 @@ import type { MediaInterview } from "@/types";
 
 export const interviews: MediaInterview[] = [
   {
+    id: 13,
+    titleZh: "《纽约时报》: 朱天评论中国零售销售数据",
+    titleEn: "China's Retail Sales Show Continued Weakness Amid Broader Slowdown",
+    date: "2026-06-16",
+    sourceZh: "The New York Times",
+    sourceEn: "The New York Times",
+    descriptionZh: "《纽约时报》引用朱天教授对中国零售销售数据的评论，分析消费疲软背后的结构性因素。",
+    descriptionEn: "The New York Times quoted Prof. Zhu Tian on China's retail sales data, analyzing the structural factors behind persistently weak consumer spending.",
+    url: "https://www.nytimes.com/2026/06/16/business/china-retail-sales.html",
+    language: "zh",
+  },
+  {
     id: 1,
     titleZh: "朱天：通缩三年后的中国经济——一半海水，一半火焰",
     titleEn: "Three Years of Deflation in China — Half Seawater, Half Flames",
