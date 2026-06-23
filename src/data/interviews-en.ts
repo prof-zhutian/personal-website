@@ -5,6 +5,18 @@ import type { MediaInterview } from "@/types";
 export const englishInterviews: MediaInterview[] = [
   // === 2026 ===
   {
+    id: 36,
+    titleZh: "法新社: 朱天评论中欧贸易战风险",
+    titleEn: "Are the EU and China Heading for a Trade War?",
+    date: "2026-06-17",
+    sourceZh: "AFP",
+    sourceEn: "AFP",
+    descriptionZh: "法新社多次引用朱天教授分析中欧贸易摩擦前景，指出双方都没有从升级中受益，中国可能以校准方式回应欧盟保护措施。",
+    descriptionEn: "AFP quoted Prof. Zhu Tian extensively on EU-China trade tensions, noting that 'neither side benefits from escalation' and China is likely to respond in a calibrated way.",
+    url: "https://www.thestandard.com.hk/china/article/334905/Are-the-EU-and-China-heading-for-a-trade-war",
+    language: "en",
+  },
+  {
     id: 34,
     titleZh: "《纽约时报》: 朱天评论中国零售销售数据",
     titleEn: "China's Retail Sales Show Continued Weakness Amid Broader Slowdown",
