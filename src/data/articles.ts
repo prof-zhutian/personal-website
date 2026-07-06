@@ -4,6 +4,18 @@ import type { Article } from "@/types";
 // Zhu Tian's Chinese articles (sorted newest first, 30 total)
 export const articles: Article[] = [
   {
+    id: 33,
+    titleZh: "科技产业如此亮眼，为什么我们仍需关注内需不足？",
+    titleEn: "With Tech Industries Shining, Why Must We Still Focus on Insufficient Domestic Demand?",
+    excerptZh: "尽管新能源汽车、人工智能、半导体等领域不断突破，但宏观经济仍面临需求不足和价格低迷。本文通过美国1930年代大萧条和日本1990年代停滞的历史教训指出，技术进步与经济萧条可以并存，不能把技术创新视为解决需求不足的主要手段；及时、大力度地扭转需求不足，往往比长期、小力度的断续刺激更加有效。",
+    excerptEn: "Despite breakthroughs in EVs, AI, semiconductors, and other tech sectors, China's macroeconomy still faces insufficient demand and deflationary pressure. Drawing on historical lessons from America's Great Depression and Japan's lost decades, this article argues that technological progress and economic stagnation can coexist. Timely, forceful measures to address demand shortfalls are far more effective than prolonged, small-scale intermittent stimulus.",
+    date: "2026-07-02",
+    sourceZh: "观察者网",
+    sourceEn: "Guancha.cn",
+    sourceUrl: "https://www.guancha.cn/ZhuTian/2026_07_02_822297.shtml",
+    language: "zh",
+  },
+  {
     id: 1,
     titleZh: "AI时代，为什么文科商科依然重要",
     titleEn: "Why Humanities and Business Majors Remain Important in the AI Era",
