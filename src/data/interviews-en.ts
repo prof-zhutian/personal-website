@@ -5,6 +5,18 @@ import type { MediaInterview } from "@/types";
 export const englishInterviews: MediaInterview[] = [
   // === 2026 ===
   {
+    id: 37,
+    titleZh: "彭博社: 朱天评论中国寻求化解中欧贸易冲突",
+    titleEn: "China Offers to Defuse EU Trade Clash After Landmark Nordic Trip",
+    date: "2026-07-08",
+    sourceZh: "Bloomberg",
+    sourceEn: "Bloomberg",
+    descriptionZh: "彭博社引用朱天教授评论王毅北欧之行后中国寻求化解中欧贸易冲突的努力，分析中欧贸易关系的走向。",
+    descriptionEn: "Bloomberg quoted Prof. Zhu Tian on China's efforts to defuse the EU trade clash following Foreign Minister Wang Yi's landmark Nordic trip, analyzing the trajectory of China-EU trade relations.",
+    url: "https://www.bloomberg.com/news/articles/2026-07-08/china-offers-to-defuse-eu-trade-clash-after-landmark-nordic-trip",
+    language: "en",
+  },
+  {
     id: 36,
     titleZh: "法新社: 朱天评论中欧贸易战风险",
     titleEn: "Are the EU and China Heading for a Trade War?",
