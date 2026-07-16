@@ -1,8 +1,20 @@
 import type { Article } from "@/types";
 
-// 朱天发表的中文文章（按时间倒序，共30篇）
-// Zhu Tian's Chinese articles (sorted newest first, 30 total)
+// 朱天发表的中文文章（按时间倒序，共31篇）
+// Zhu Tian's Chinese articles (sorted newest first, 31 total)
 export const articles: Article[] = [
+  {
+    id: 34,
+    titleZh: "同一个体制，为何奥运奖牌很多，男足却缺席世界杯",
+    titleEn: "Same System, So Many Olympic Medals — Why Is Men's Football Absent from the World Cup?",
+    excerptZh: `朱天教授从经济学视角分析中国足球长期落后的根本原因：不是人口不够多，而是\u201c球员密度\u201d（注册球员占总人口比例）极低。足球属于人才测量成本最高的运动项目，能力只能在大量真实比赛中被识别和筛选，这使得参与密度比参与总人数更为关键。举国体制在测量成本低的奥运项目上效果显著，却无法创造足球所需的基层竞争生态。文章建议降低家庭让孩子踢球的机会成本、建立分年龄分水平的基层联赛、打通校园足球与教育轨道，以逐步提高参与密度。`,
+    excerptEn: "Professor Zhu Tian analyzes the root cause of China's football struggles from an economic perspective: the problem is not population size but 'player density' — registered players as a share of total population, which is extremely low in China. Football has the highest 'measurement cost' among sports; talent can only be identified and developed through continuous competitive matches, making participation density more critical than total numbers. The whole-nation sports system that excels in low-measurement-cost Olympic events cannot create the grassroots competitive ecosystem football requires. The article recommends reducing the opportunity cost for families, establishing age-graded local leagues, and bridging school football with the education system.",
+    date: "2026-07-13",
+    sourceZh: "中欧国际工商学院",
+    sourceEn: "CEIBS",
+    sourceUrl: "https://new.qq.com/rain/a/20260713A02YRB00",
+    language: "zh",
+  },
   {
     id: 33,
     titleZh: "科技产业如此亮眼，为什么我们仍需关注内需不足？",
