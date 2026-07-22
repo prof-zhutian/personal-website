@@ -4,6 +4,18 @@ import type { Article } from "@/types";
 // Zhu Tian's Chinese articles (sorted newest first, 31 total)
 export const articles: Article[] = [
   {
+    id: 35,
+    titleZh: "上半年中国经济数据，透露出一个重要信号",
+    titleEn: "China's H1 Economic Data Reveals an Important Signal",
+    excerptZh: "2026年上半年经济数据公布：供给面仍有亮点，高技术制造业增长13.3%，但消费仅增2.7%，投资下降5.7%，净出口同比减少。本文指出，比GDP增长4.7%更值得关注的信号是生产端与需求端的持续背离——供给侧仍有韧性，但吸收供给的国内需求明显不足。宏观政策需将重心更多放在扩大总需求上，通过更强有力的财政和货币政策提升国内消费和投资。",
+    excerptEn: "China's H1 2026 data shows a persistent divergence: supply-side indicators remain strong with high-tech manufacturing up 13.3%, but consumption grew only 2.7%, investment fell 5.7%, and net exports declined. The critical signal is the ongoing decoupling between production and demand. While the supply side remains resilient, domestic demand is clearly insufficient to absorb it. Macro policy should focus more on boosting aggregate demand through stronger fiscal and monetary measures.",
+    date: "2026-07-21",
+    sourceZh: "腾讯新闻",
+    sourceEn: "Tencent News",
+    sourceUrl: "https://new.qq.com/rain/a/20260721A02VR400",
+    language: "zh",
+  },
+  {
     id: 34,
     titleZh: "同一个体制，为何奥运奖牌很多，男足却缺席世界杯",
     titleEn: "Same System, So Many Olympic Medals — Why Is Men's Football Absent from the World Cup?",
