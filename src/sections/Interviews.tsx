@@ -7,12 +7,13 @@ import { SquareArrowOutUpRight } from "lucide-react";
 function formatDate(dateStr: string, lang: Lang): string {
   const date = new Date(dateStr);
   if (lang === "zh") {
-    return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日`;
+    return `${date.getUTCFullYear()}年${date.getUTCMonth() + 1}月${date.getUTCDate()}日`;
   }
   return date.toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
     day: "numeric",
+    timeZone: "UTC",
   });
 }
 
