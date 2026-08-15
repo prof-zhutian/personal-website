@@ -5,6 +5,18 @@ import type { MediaInterview } from "@/types";
 export const englishInterviews: MediaInterview[] = [
   // === 2026 ===
   {
+    id: 38,
+    titleZh: "《南华早报》：朱天回忆朱镕基的经济改革遗产",
+    titleEn: "Zhu Rongji’s Legacy: How the Late Premier Reshaped State Firms, Pudong and China’s Economy",
+    date: "2026-08-13",
+    sourceZh: "南华早报",
+    sourceEn: "South China Morning Post",
+    descriptionZh: "朱天教授接受《南华早报》采访，回忆朱镕基在清华经管学院创办初期展现的个人魅力，并评价其深厚的经济理解、卓越的领导力和执行力。",
+    descriptionEn: "SCMP interviewed Prof. Zhu Tian about Zhu Rongji's economic legacy. He recalled the former premier's personal charisma and praised his deep understanding of the economy, exceptional leadership, and ability to execute reforms.",
+    url: "https://www.scmp.com/economy/china-economy/article/3363935/zhu-rongjis-legacy-how-late-premier-reshaped-state-firms-pudong-and-chinas-economy",
+    language: "en",
+  },
+  {
     id: 37,
     titleZh: "彭博社: 朱天评论中国寻求化解中欧贸易冲突",
     titleEn: "China Offers to Defuse EU Trade Clash After Landmark Nordic Trip",
