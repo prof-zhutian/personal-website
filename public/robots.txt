@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://catchinguptoamerica.work/sitemap.xml
+Sitemap: https://zhutian.ceibs.edu/sitemap.xml
+Host: zhutian.ceibs.edu
