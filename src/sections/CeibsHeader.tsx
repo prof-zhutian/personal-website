@@ -4,7 +4,7 @@ export default function CeibsHeader() {
   const { lang } = useI18n();
 
   return (
-    <header className="absolute top-0 left-0 z-20 flex items-center px-4 sm:px-6 py-3 sm:py-4 pointer-events-none">
+    <header className="absolute top-0 left-0 z-40 flex items-center px-4 sm:px-6 py-3 sm:py-4 pointer-events-none">
       {/* CEIBS Logo Mark */}
       <a
         href="https://www.ceibs.edu"
