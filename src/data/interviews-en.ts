@@ -5,6 +5,18 @@ import type { MediaInterview } from "@/types";
 export const englishInterviews: MediaInterview[] = [
   // === 2026 ===
   {
+    id: 39,
+    titleZh: "《南华早报》：朱天解析中国体育强项为何难以转化为团队项目成功",
+    titleEn: "Why China’s Sporting Machine Fails to Turn Individual Olympic Gold into Team Success",
+    date: "2026-08-25",
+    sourceZh: "南华早报",
+    sourceEn: "South China Morning Post",
+    descriptionZh: "朱天教授接受《南华早报》采访，分析中国为何在个人项目上成绩突出，却长期在足球等团队项目中失利。他指出，关键在于人才识别成本高、参与密度低，以及体育与教育割裂带来的制度性退出风险。",
+    descriptionEn: "SCMP interviewed Prof. Zhu Tian on why China's state-led sports system excels in individual events but struggles in football and other team sports. He pointed to the high cost of identifying talent, low player density, and the institutional risk created by separating sport from education.",
+    url: "https://www.scmp.com/sport/china/article/3365176/why-chinas-sporting-machine-fails-turn-individual-olympic-gold-team-success",
+    language: "en",
+  },
+  {
     id: 38,
     titleZh: "《南华早报》：朱天回忆朱镕基的经济改革遗产",
     titleEn: "Zhu Rongji’s Legacy: How the Late Premier Reshaped State Firms, Pudong and China’s Economy",
