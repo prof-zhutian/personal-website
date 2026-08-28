@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0" />
@@ -10,16 +10,45 @@
     <meta name="description" content="朱天，中欧国际工商学院副院长兼中方教务长、经济学教授。Tian Zhu, Vice President and Co-Dean, Professor of Economics at CEIBS (China Europe International Business School)." />
     <meta name="keywords" content="朱天, Tian Zhu, CEIBS, 中欧国际工商学院, Economics, Professor, 经济学教授" />
     <meta name="author" content="Tian Zhu" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="google-site-verification" content="rbMhtOlvSOjm8AcKXZkHvMCeV05AKttj47R4R0Qh5MM" />
-    <link rel="canonical" href="https://catchinguptoamerica.work/" />
+    <link rel="canonical" href="https://zhutian.ceibs.edu/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://zhutian.ceibs.edu/" />
+    <link rel="alternate" hreflang="en" href="https://zhutian.ceibs.edu/en" />
+    <link rel="alternate" hreflang="x-default" href="https://zhutian.ceibs.edu/" />
 
     <!-- Open Graph (for social sharing) -->
     <meta property="og:type" content="profile" />
     <meta property="og:title" content="朱天 | Tian Zhu — CEIBS Professor of Economics" />
     <meta property="og:description" content="朱天，中欧国际工商学院副院长兼中方教务长、经济学教授。" />
-    <meta property="og:url" content="https://catchinguptoamerica.work/" />
+    <meta property="og:url" content="https://zhutian.ceibs.edu/" />
     <meta property="og:locale" content="zh_CN" />
     <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Person structured data for search engines -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": "https://zhutian.ceibs.edu/#person",
+        "name": "朱天",
+        "alternateName": "Tian Zhu",
+        "url": "https://zhutian.ceibs.edu/",
+        "jobTitle": [
+          "Vice President and Co-Dean",
+          "Professor of Economics"
+        ],
+        "worksFor": {
+          "@type": "CollegeOrUniversity",
+          "name": "China Europe International Business School",
+          "alternateName": "中欧国际工商学院",
+          "url": "https://www.ceibs.edu/"
+        },
+        "sameAs": [
+          "https://cn.ceibs.edu/zhu-tian"
+        ]
+      }
+    </script>
 
     <style>
       html {
@@ -38,6 +67,17 @@
           if (redirect !== location.pathname + location.search + location.hash) {
             history.replaceState(null, '', redirect);
           }
+        }
+
+        // Consolidate visitors on the official CEIBS subdomain. A server-side
+        // 301 should replace this fallback when the old domain's DNS allows it.
+        if (location.hostname === 'catchinguptoamerica.work') {
+          location.replace(
+            'https://zhutian.ceibs.edu' +
+              location.pathname +
+              location.search +
+              location.hash
+          );
         }
       })();
     </script>
