@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useCallback, type ReactNode } from "react";
+import { createContext, useContext, useState, useCallback, useEffect, type ReactNode } from "react";
 import { translations, type Lang } from "./translations";
 
 interface I18nContextType {
@@ -23,6 +23,42 @@ function getPathForLang(lang: Lang): string {
 
 export function I18nProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = useState<Lang>(getInitialLang);
+
+  useEffect(() => {
+    if (typeof document === "undefined") return;
+
+    const isEnglish = lang === "en";
+    const canonicalUrl = isEnglish
+      ? "https://zhutian.ceibs.edu/en"
+      : "https://zhutian.ceibs.edu/";
+    const title = isEnglish
+      ? "Tian Zhu | CEIBS Professor of Economics"
+      : "朱天 | 中欧国际工商学院经济学教授";
+    const description = isEnglish
+      ? "Tian Zhu, Vice President and Co-Dean, Professor of Economics at CEIBS (China Europe International Business School)."
+      : "朱天，中欧国际工商学院副院长兼中方教务长、经济学教授、桑坦德经济学教席教授。";
+
+    document.documentElement.lang = isEnglish ? "en" : "zh-CN";
+    document.title = title;
+    document
+      .querySelector('meta[name="description"]')
+      ?.setAttribute("content", description);
+    document
+      .querySelector('link[rel="canonical"]')
+      ?.setAttribute("href", canonicalUrl);
+    document
+      .querySelector('meta[property="og:title"]')
+      ?.setAttribute("content", title);
+    document
+      .querySelector('meta[property="og:description"]')
+      ?.setAttribute("content", description);
+    document
+      .querySelector('meta[property="og:url"]')
+      ?.setAttribute("content", canonicalUrl);
+    document
+      .querySelector('meta[property="og:locale"]')
+      ?.setAttribute("content", isEnglish ? "en_US" : "zh_CN");
+  }, [lang]);
 
   const toggleLang = useCallback(() => {
     setLang((prev) => {
