@@ -4,6 +4,18 @@ import type { Article } from "@/types";
 // Zhu Tian's Chinese articles (sorted newest first, 31 total)
 export const articles: Article[] = [
   {
+    id: 36,
+    titleZh: "5%失业率背后——真正的就业问题，在数字之外",
+    titleEn: "Behind the 5% Unemployment Rate: The Real Employment Problem Lies Beyond the Numbers",
+    excerptZh: "调查失业率连续多年稳定在5%左右，但领取失业保险金人数从2021年的259万增至2025年的557万，翻了一番还多；灵活就业人员也从2亿增至2.8亿。本文指出，失业率稳定未必意味着就业压力没有上升，部分压力正通过网约车、外卖等灵活就业被吸收——表现为工作更不稳定、工时更长、单位时间收入更低。就业压力的根源是2022年以来房地产大幅下行造成的总需求不足，改善就业的关键是中央财政大幅加杠杆、发放数万亿消费券、稳定房地产。",
+    excerptEn: "While the surveyed unemployment rate has held near 5% for years, the number of people receiving unemployment benefits doubled from 2.59 million in 2021 to 5.57 million in 2025, and flexible employment grew from 200 million to 280 million. This article argues that a stable unemployment rate does not mean employment pressure has eased — much of it is being absorbed into gig work, showing up as less stable jobs, longer hours, and lower hourly pay. The root cause is insufficient aggregate demand from the sharp property downturn since 2022, and the remedy is much stronger central fiscal stimulus, trillions in consumption vouchers, and property stabilization.",
+    date: "2026-09-08",
+    sourceZh: "腾讯新闻",
+    sourceEn: "Tencent News",
+    sourceUrl: "https://new.qq.com/rain/a/20260908A04AEZ00",
+    language: "zh",
+  },
+  {
     id: 35,
     titleZh: "上半年中国经济数据，透露出一个重要信号",
     titleEn: "China's H1 Economic Data Reveals an Important Signal",
