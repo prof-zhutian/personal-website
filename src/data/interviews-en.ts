@@ -5,6 +5,18 @@ import type { MediaInterview } from "@/types";
 export const englishInterviews: MediaInterview[] = [
   // === 2026 ===
   {
+    id: 40,
+    titleZh: "《南华早报》：中美延长两个月贸易休战期透露出什么信号",
+    titleEn: "What a 2-Month Trade-Truce Extension Between China and the US Reveals as Rifts Persist",
+    date: "2026-09-24",
+    sourceZh: "南华早报",
+    sourceEn: "South China Morning Post",
+    descriptionZh: "《南华早报》引用朱天教授对中美延长两个月贸易休战期的评论。他认为，这对众多参与中美贸易的企业而言仍是一个鼓舞人心的信号，为企业带来了一定的短期确定性。",
+    descriptionEn: "SCMP quoted Prof. Zhu Tian on the two-month extension of the US-China trade truce. He described it as an encouraging sign for the many businesses with a stake in bilateral trade, offering them a measure of short-term certainty.",
+    url: "https://www.scmp.com/economy/global-economy/article/3368663/what-2-month-trade-truce-extension-between-china-and-us-reveals-rifts-persist",
+    language: "en",
+  },
+  {
     id: 39,
     titleZh: "《南华早报》：朱天解析中国体育强项为何难以转化为团队项目成功",
     titleEn: "Why China’s Sporting Machine Fails to Turn Individual Olympic Gold into Team Success",
