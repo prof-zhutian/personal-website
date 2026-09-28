@@ -5,6 +5,18 @@ import type { MediaInterview } from "@/types";
 export const englishInterviews: MediaInterview[] = [
   // === 2026 ===
   {
+    id: 41,
+    titleZh: "《卫报》：朱天评论中美互降关税",
+    titleEn: "Foie Gras, Live Dolphins and Toasters: China and US Cut Reciprocal Tariffs on $30bn Each of Goods",
+    date: "2026-09-28",
+    sourceZh: "英国《卫报》",
+    sourceEn: "The Guardian",
+    descriptionZh: "英国《卫报》引用朱天教授评论中美各自公布约300亿美元商品的关税削减清单。他表示，这是积极一步，但并非重大突破；不过重要的是，双方正在从单纯避免进一步升级，转向真正削减部分关税。",
+    descriptionEn: "The Guardian quoted Prof. Zhu Tian on the US and China's reciprocal tariff cuts covering $30bn of goods each. 'It is a positive step, but not a major breakthrough,' he said, adding that it is still significant that the two sides are moving from simply avoiding further escalation to actually reducing some tariffs.",
+    url: "https://www.theguardian.com/business/2026/sep/28/china-and-us-cut-reciprocal-tariffs",
+    language: "en",
+  },
+  {
     id: 40,
     titleZh: "《南华早报》：中美延长两个月贸易休战期透露出什么信号",
     titleEn: "What a 2-Month Trade-Truce Extension Between China and the US Reveals as Rifts Persist",
