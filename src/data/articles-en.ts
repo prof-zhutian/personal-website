@@ -4,6 +4,30 @@ import type { Article } from "@/types";
 // English articles by Zhu Tian — Sources: CEIBS website, China Daily, SCMP, Financial Times, etc.
 export const englishArticles: Article[] = [
   {
+    id: 116,
+    titleZh: "中国上半年经济数据：5%增长背后的谜题",
+    titleEn: "China's H1 economic data: The puzzle behind China's 5% growth",
+    excerptZh: "2026年上半年经济数据呈现明显悖论：工业产出和高技术制造业持续较快增长，消费却依旧低迷，投资明显下滑，净出口也失去动能。生产何以在需求走弱时维持约5%的增长？朱天教授剖析供给扩张与需求疲弱并存的深层矛盾，指出扩大内需应成为宏观政策的当务之急。",
+    excerptEn: "China's latest economic data presents a striking paradox: industrial output and high-tech manufacturing continue to post solid gains, yet consumption remains subdued, investment has weakened, and net exports have lost momentum. How can production keep growing when the economy's main demand drivers are faltering? Professor Zhu Tian examines the growing disconnect between supply and demand, and explains why boosting domestic demand should now be the top policy priority for sustaining China's growth.",
+    date: "2026-07-23",
+    sourceZh: "中欧国际工商学院",
+    sourceEn: "CEIBS",
+    sourceUrl: "https://www.ceibs.edu/new-papers-columns/29540",
+    language: "en",
+  },
+  {
+    id: 117,
+    titleZh: "为什么中国奥运奖牌多，男足却进不了世界杯？",
+    titleEn: "Why does China win Olympic Medals, but miss out on the World Cup?",
+    excerptZh: "中国在跳水、乒乓球、举重、体操等奥运项目上长盛不衰，却屡屡无缘足球世界杯。朱天教授从经济学视角剖析：问题主要不在治理或资金，而在人才识别的经济学——足球是人才评估成本最高的运动之一，需要通过大量正式比赛反复筛选，而中国注册球员密度极低，才是根本症结。",
+    excerptEn: "China is a global powerhouse in Olympic sports such as diving, table tennis, weightlifting, and gymnastics, yet it repeatedly fails to qualify for football's World Cup. From an economist's perspective, Professor Zhu Tian argues the answer lies not primarily in governance or funding, but in the economics of talent discovery: football is among the hardest sports in which to accurately assess talent, requiring repeated competitive matches to filter and develop players — while China's extremely low registered player density remains the fundamental weakness.",
+    date: "2026-07-16",
+    sourceZh: "中欧国际工商学院",
+    sourceEn: "CEIBS",
+    sourceUrl: "https://www.ceibs.edu/new-papers-columns/29507",
+    language: "en",
+  },
+  {
     id: 101,
     titleZh: "冰与火：理解中国经济的分化",
     titleEn: "Ice and Fire: Understanding China's Economic Divide",
