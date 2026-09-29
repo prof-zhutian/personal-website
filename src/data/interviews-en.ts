@@ -5,6 +5,18 @@ import type { MediaInterview } from "@/types";
 export const englishInterviews: MediaInterview[] = [
   // === 2026 ===
   {
+    id: 42,
+    titleZh: "《时代》周刊：朱天解读中美600亿美元商品关税削减",
+    titleEn: "U.S. and China to Cut Tariffs on $60 Billion of Goods",
+    date: "2026-09-29",
+    sourceZh: "《时代》周刊",
+    sourceEn: "TIME",
+    descriptionZh: "朱天教授接受《时代》周刊采访，解读中美在'30对30'框架下对约600亿美元商品互降关税的协议。他指出，清单的产品选择反映出一种谨慎的做法，这份协议更像是双方之间的信心建立措施，而非实质性的贸易突破。",
+    descriptionEn: "TIME interviewed Prof. Zhu Tian on the US-China agreement to cut tariffs on $60 billion of goods under the '30-for-30' framework. The choice of products reflects a 'cautious' approach, he told TIME, suggesting the agreement is more 'a confidence-building measure' between the two sides than a substantive trade breakthrough.",
+    url: "https://time.com/article/2026/09/29/us-china-reciprocal-tariffs-cut-trade-goods-60-billion/",
+    language: "en",
+  },
+  {
     id: 41,
     titleZh: "《卫报》：朱天评论中美互降关税",
     titleEn: "Foie Gras, Live Dolphins and Toasters: China and US Cut Reciprocal Tariffs on $30bn Each of Goods",
