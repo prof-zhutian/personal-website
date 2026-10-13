@@ -5,6 +5,18 @@ import type { MediaInterview } from "@/types";
 export const englishInterviews: MediaInterview[] = [
   // === 2026 ===
   {
+    id: 43,
+    titleZh: "法新社：朱天谈欧盟贸易特使访华与中欧贸易失衡",
+    titleEn: "In Beijing, EU Trade Envoy Says Deficit with China 'Unsustainable'",
+    date: "2026-10-08",
+    sourceZh: "法新社",
+    sourceEn: "AFP",
+    descriptionZh: "法新社报道欧盟贸易专员谢夫乔维奇访问北京、试图避免中欧贸易战之际，引用朱天教授的评论。对于外界对本周达成全面协议的谨慎预期，他表示，此次谈判可以在某些具体问题上达成协议。",
+    descriptionEn: "AFP quoted Prof. Zhu Tian as EU trade commissioner Maros Sefcovic held talks in Beijing aimed at averting an EU-China trade war over the bloc's 'unsustainable' deficit. While analysts were cautious about a broad agreement, he said the talks could yield agreements 'on some specific issues'.",
+    url: "https://www.afp.com/en/beijing-eu-trade-envoy-says-deficit-china-unsustainable",
+    language: "en",
+  },
+  {
     id: 42,
     titleZh: "《时代》周刊：朱天解读中美600亿美元商品关税削减",
     titleEn: "U.S. and China to Cut Tariffs on $60 Billion of Goods",
