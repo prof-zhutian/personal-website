@@ -1,8 +1,20 @@
 import type { Article } from "@/types";
 
-// 朱天发表的中文文章（按时间倒序，共31篇）
-// Zhu Tian's Chinese articles (sorted newest first, 31 total)
+// 朱天发表的中文文章（按时间倒序，共37篇）
+// Zhu Tian's Chinese articles (sorted newest first, 37 total)
 export const articles: Article[] = [
+  {
+    id: 37,
+    titleZh: "为什么今天不再有鲁迅？",
+    titleEn: "Why Are There No More Lu Xuns Today?",
+    excerptZh: "九十年前鲁迅逝世，数万人沿途送葬，民族魂三个字成为对这位文学家的至高评价。今天却很难再看到像鲁迅、狄更斯、托尔斯泰那样，同时是一个社会最重要的公众人物和世界解释者的文学家。本文从替代效应与分工效应两个经济学机制解释这一变化：随着经济发展和技术进步，文化娱乐产品日益丰富，文学要在注意力市场上与电影、剧集、游戏、短视频争夺有限的时间；而过去由文学同时承担的娱乐、情感体验、社会观察与思想传播功能，如今分别有了专门的生产者——影视、社会科学与非虚构写作。1980年《人民文学》平均每期印数132万册的盛况不再，今天不再有鲁迅，并不是因为缺少同样有才华的人，而是产生鲁迅式社会影响力的市场条件已经发生了根本的变化。",
+    excerptEn: "Ninety years ago Lu Xun's death drew tens of thousands of mourners into the streets, and the epithet soul of the nation became the highest tribute paid to a writer. Yet today it is hard to find, anywhere in the world, a writer who is at once a society's foremost public figure and its interpreter of the world, as Lu Xun, Dickens, Tolstoy and Mark Twain once were. This essay, written by an economist, explains the change through two mechanisms. Substitution: as economic growth and technology make cultural products ever more abundant, literature must compete for scarce attention against film, television, games and short video. Division of labour: the functions literature once bundled together - entertainment, emotional experience, social observation and the transmission of ideas - now have specialised producers in the social sciences and non-fiction. Lu Xun's absence reflects not a shortage of talent but a fundamental change in the market conditions that once made writerly influence on his scale possible.",
+    date: "2026-10-19",
+    sourceZh: "中欧国际工商学院",
+    sourceEn: "CEIBS",
+    sourceUrl: "https://cn.ceibs.edu/new-papers-columns/30133",
+    language: "zh",
+  },
   {
     id: 36,
     titleZh: "5%失业率背后——真正的就业问题，在数字之外",
