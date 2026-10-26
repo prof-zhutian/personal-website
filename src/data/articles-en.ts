@@ -4,6 +4,18 @@ import type { Article } from "@/types";
 // English articles by Zhu Tian — Sources: CEIBS website, China Daily, SCMP, Financial Times, etc.
 export const englishArticles: Article[] = [
   {
+    id: 118,
+    titleZh: "物价转正、利润暴增，我们真的摆脱通缩压力了吗？",
+    titleEn: "As Consumer Prices Return to Positive Territory and Profits See Explosive Growth, Have We Truly Shaken Off Deflationary Pressures?",
+    excerptZh: "2026年前三季度，GDP平减指数三年来首次转正，PPI在连续41个月下降后于9月同比上涨5.0%，创四年新高，规模以上工业企业利润同比增长15.7%。单看这些数据，通缩似乎已经结束。但物价回升的来源决定了它的含义：社会消费品零售总额只增长1.1%，固定资产投资下降7.2%，内需依然疲弱；涨价主要来自国际大宗商品和算力产业链，采掘工业上涨25.4%，而生活资料价格下降0.1%。更关键的是利润的高度集中：今年1至8月工业利润比去年同期增加约7100亿元，其中电子行业就占约4400亿元，加上五个上游行业，六个行业合计增加约9500亿元，超过全部工业利润的增加额，意味着其余行业利润合计下降约7%。上游涨价、需求疲弱，中下游企业买得更贵却卖不上价，利润被两头挤压，而提供大量就业的正是这些企业。所以按价格标准通缩已经结束，按需求标准则没有。",
+    excerptEn: "In the first three quarters of 2026 China's GDP deflator turned positive for the first time in three years, the PPI rose 5.0% year on year in September after 41 consecutive months of decline, and industrial profits jumped 15.7%. Taken alone, these numbers suggest deflation is over. This essay argues that the answer depends on where the price increase comes from. Retail sales grew only 1.1% and fixed-asset investment fell 7.2%, so domestic demand remains weak. The price recovery comes largely from international commodities and the AI computing supply chain: mining prices rose 25.4% while prices of consumer goods fell 0.1%. Profits are even more concentrated. Industrial profits rose by about 710 billion yuan over January-August, of which electronics alone accounted for about 440 billion; six industries together added about 950 billion, more than the entire increase, implying that profits in all remaining industries fell by roughly 7%. Upstream prices rise while final demand stays weak, so downstream firms pay more and charge less, and it is these firms that provide most of the jobs. By the price criterion deflation has ended; by the demand criterion it has not. Demand policy must be scaled up: central government bonds financing cash consumption vouchers, and central purchases of unsold housing stock converted into affordable rental housing, on a scale large enough to close the demand gap.",
+    date: "2026-10-26",
+    sourceZh: "36氪 (36Kr)",
+    sourceEn: "36Kr",
+    sourceUrl: "https://eu.36kr.com/en/p/4042010532877188",
+    language: "en",
+  },
+  {
     id: 116,
     titleZh: "中国上半年经济数据：5%增长背后的谜题",
     titleEn: "China's H1 economic data: The puzzle behind China's 5% growth",
