@@ -16,6 +16,18 @@ export const englishArticles: Article[] = [
     language: "en",
   },
   {
+    id: 119,
+    titleZh: "5%失业率背后——真正的就业问题，在数字之外",
+    titleEn: "China's Employment Problem Is Closer Than It Appears",
+    excerptZh: "调查失业率连续多年稳定在5%左右，但领取失业保险金人数从2021年的259万增至2025年的557万，四年翻了一倍多；同期失业保险参保人数只从2.30亿增至2.49亿，增幅8.5%，覆盖面扩大解释不了。申领流程简化是一次性变化，其影响应逐年衰减，也无法解释连续四年的加速上升。更关键的是，2025年城镇就业约4.75亿人，失业保险只覆盖2.49亿，近一半的灵活就业者、个体工商户不在覆盖范围内；失去正规工作后转做网约车、外卖的人重新被计为就业，既不进失业率也不进领金人数。因此领金人数翻倍显得格外刺眼。文章指出，就业压力已不再表现为失业率上升，而表现为工作更不稳定、工时更长、单位时间收入更低，根源是2022年以来房地产大幅下行造成的总需求不足，出路是财政政策发力、恢复总需求。",
+    excerptEn: "China's surveyed urban unemployment rate averaged 5.2% in the first seven months of 2026, essentially unchanged from a year earlier, and has stayed within a 5.1-5.2% band since 2021. Yet the number of people drawing unemployment insurance benefits more than doubled in four years, from 2.59 million at the end of 2021 to 5.57 million at the end of 2025 - a rise of 115%. Coverage cannot explain it: the number of people enrolled in the scheme grew only 8.5%, from 230 million to 249 million. Nor can easier application procedures introduced in 2019 and 2020, whose effect should fade over time rather than accelerate for four consecutive years. The article argues that labour-market pressure now shows up less as open unemployment than as deteriorating job quality - less stable work, longer hours, lower hourly earnings - because nearly half of urban workers are outside the insurance scheme and those displaced from regular jobs are absorbed into ride-hailing and food delivery, where they count as employed. The root cause is the shortfall in aggregate demand created by the property downturn since 2022, and the remedy is fiscal policy taking the lead to restore demand.",
+    date: "2026-09-08",
+    sourceZh: "Pekingnology",
+    sourceEn: "Pekingnology",
+    sourceUrl: "https://www.pekingnology.com/p/zhu-tian-chinas-employment-problem",
+    language: "en",
+  },
+  {
     id: 116,
     titleZh: "中国上半年经济数据：5%增长背后的谜题",
     titleEn: "China's H1 economic data: The puzzle behind China's 5% growth",
