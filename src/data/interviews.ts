@@ -3,7 +3,7 @@ import type { MediaInterview } from "@/types";
 export const interviews: MediaInterview[] = [
   {
     id: 14,
-    titleZh: "中国称经济增长强劲，但官方数据再遭各方质疑",
+    titleZh: "中国经济增长强劲，但官方数据有争议",
     titleEn: "China Claims Strong Economic Growth, but Skeptics Question Official Figures",
     date: "2026-10-27",
     sourceZh: "《华尔街日报》",
