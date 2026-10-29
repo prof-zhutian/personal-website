@@ -2,6 +2,18 @@ import type { MediaInterview } from "@/types";
 
 export const interviews: MediaInterview[] = [
   {
+    id: 14,
+    titleZh: "中国称经济增长强劲，但官方数据再遭各方质疑",
+    titleEn: "China Claims Strong Economic Growth, but Skeptics Question Official Figures",
+    date: "2026-10-27",
+    sourceZh: "《华尔街日报》",
+    sourceEn: "The Wall Street Journal",
+    descriptionZh: "《华尔街日报》在有关中国经济增长及官方数据争议的报道中采访了朱天教授。",
+    descriptionEn: "The Wall Street Journal interviewed Prof. Zhu Tian for a report on China’s economic growth and questions surrounding official economic data.",
+    url: "https://cn.wsj.com/articles/%E4%B8%AD%E5%9B%BD%E7%A7%B0%E7%BB%8F%E6%B5%8E%E5%A2%9E%E9%95%BF%E5%BC%BA%E5%8A%B2-%E4%BD%86%E5%AE%98%E6%96%B9%E6%95%B0%E6%8D%AE%E5%86%8D%E9%81%AD%E5%90%84%E6%96%B9%E8%B4%A8%E7%96%91-27963e3b",
+    language: "zh",
+  },
+  {
     id: 13,
     titleZh: "《纽约时报》: 朱天评论中国零售销售数据",
     titleEn: "China's Retail Sales Show Continued Weakness Amid Broader Slowdown",

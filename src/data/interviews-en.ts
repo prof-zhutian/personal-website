@@ -3,6 +3,18 @@ import type { MediaInterview } from "@/types";
 // English-language media interviews & coverage — sourced from CEIBS faculty page
 // Ordered newest to oldest (2020–2026)
 export const englishInterviews: MediaInterview[] = [
+  {
+    id: 44,
+    titleZh: "中国称经济增长强劲，但官方数据再遭各方质疑",
+    titleEn: "China Claims Strong Economic Growth, but Skeptics Question Official Figures",
+    date: "2026-10-27",
+    sourceZh: "《华尔街日报》",
+    sourceEn: "The Wall Street Journal",
+    descriptionZh: "《华尔街日报》在有关中国经济增长及官方数据争议的报道中采访了朱天教授。",
+    descriptionEn: "The Wall Street Journal interviewed Prof. Zhu Tian for a report on China’s economic growth and questions surrounding official economic data.",
+    url: "https://www.wsj.com/economy/china-claims-strong-economic-growth-but-skeptics-question-official-figures-22e583db",
+    language: "en",
+  },
   // === 2026 ===
   {
     id: 43,
